@@ -1,0 +1,266 @@
+{
+  "Logorrhea" : {
+    "modifiable" : true,
+    "reportable" : true,
+    "name": "logorrhea",
+    "endpoint_modify": "/api/thresholds/logorrhea",
+    "info" : "logorrea_info.html",
+    "warning_thresholds": "minimum should be less than maximum",
+    "thresholds": [
+      {
+        "name": "min_value_avg_response_length",
+        "title": "Minimimum Average response length",
+        "constraints" : {
+          "signed": false,
+          "decimal": false
+        }
+      },
+      {
+        "name": "max_value_avg_response_length",
+        "title": "Maximum Average response length",
+        "constraints" : {
+          "signed": false,
+          "decimal": false
+        }
+      }
+    ],
+    "warning_weights": "weights should add up to 1",
+    "weights": [
+      {
+        "name": "interruptions_weight",
+        "title": "Weight of interruption factor",
+        "constraints" : {
+          "signed": false,
+          "decimal": true
+        }
+      },
+      {
+        "name": "response_length_weight",
+        "title": "Weight of response length factor",
+        "constraints" : {
+          "signed": false,
+          "decimal": true
+        }
+      }
+    ]
+  },
+  "Slowed Thinking" : {
+    "modifiable" : true,
+    "reportable" : true,
+    "name": "slowed_thinking",
+    "endpoint_modify": "/api/thresholds/slowed_thinking",
+    "info" : "pensiero_rallentato_info.html",
+    "warning_thresholds": "minimum should be less than maximum",
+    "thresholds": [
+      {
+        "name": "min_value_response_time",
+        "title": "Minimimum Average response time",
+        "constraints" : {
+          "signed": false,
+          "decimal": false
+        }
+      },
+      {
+        "name": "max_value_response_time",
+        "title": "Maximum Average response time",
+        "constraints" : {
+          "signed": false,
+          "decimal": false
+        }
+      }
+    ],
+    "warning_weights": "weights should add up to 1",
+    "weights": [
+      {
+        "name": "pause_time_weight",
+        "title": "Weight of pause time factor",
+        "constraints" : {
+          "signed": false,
+          "decimal": true
+        }
+      },
+      {
+        "name": "response_time_weight",
+        "title": "Weight of response time factor",
+        "constraints" : {
+          "signed": false,
+          "decimal": true
+        }
+      }
+    ]
+  },
+  "Rumination" : {
+    "modifiable" : false,
+    "reportable" : true,
+    "name": "rumination",
+    "endpoint_modify": "",
+    "info" : "ruminazione_info.html",
+    "warning_thresholds": "",
+    "thresholds": [
+
+    ],
+    "warning_weights": "",
+    "weights": [
+
+    ]
+
+  },
+  "Perseverance" : {
+    "modifiable" : false,
+    "reportable" : true,
+    "name": "perseverance",
+    "endpoint_modify": "",
+    "info" : "perseveranza_info.html",
+    "warning_thresholds": "",
+    "thresholds": [
+
+    ],
+    "warning_weights": "",
+    "weights": [
+
+    ]
+
+  },
+  "Pressured Speech" : {
+    "modifiable" : true,
+    "reportable" : false,
+    "name": "pressure_to_speech",
+    "endpoint_modify": "/api/thresholds/pressure_to_speech",
+    "info" : "pressione_info.html",
+    "warning_thresholds": "minimum should be less than maximum",
+    "thresholds": [
+      {
+        "name": "min_num_per_min",
+        "title": "Minimimum Word per Minute",
+        "constraints" : {
+          "signed": false,
+          "decimal": false
+        }
+      },
+      {
+        "name": "max_num_per_min",
+        "title": "Maximum eìWord per Minute",
+        "constraints" : {
+          "signed": false,
+          "decimal": false
+        }
+      }
+    ],
+    "warning_weights": "",
+    "weights": [
+
+    ]
+  },
+  "Restricted Thinking" : {
+    "modifiable" : false,
+    "reportable" : false,
+    "name": "narrow_thinking",
+    "endpoint_modify": "",
+    "info" : "pensiero_ristretto_info.html",
+    "warning_thresholds": "",
+    "thresholds": [
+
+    ],
+    "warning_weights": "",
+    "weights": [
+
+    ]
+  },
+  "Tangentiality" : {
+    "modifiable" : false,
+    "reportable" : false,
+    "name": "tangentiality",
+    "endpoint_modify": "",
+    "info" : "tangezialita_info.html",
+    "warning_thresholds": "",
+    "thresholds": [
+
+    ],
+    "warning_weights": "",
+    "weights": [
+
+    ]
+  },
+  "Rupture of Thought" : {
+    "modifiable" : false,
+    "reportable" : false,
+    "name": "loss_of_thought",
+    "endpoint_modify": "",
+    "info" : "perdita_pensiero_info.html",
+    "warning_thresholds": "",
+    "thresholds": [
+
+    ],
+    "warning_weights": "",
+    "weights": [
+
+    ]
+  },
+  "Clanging" : {
+    "modifiable" : true,
+    "reportable" : false,
+    "name": "clanging",
+    "endpoint_modify": "/api/thresholds/clanging",
+    "info" : "clanging_info.html",
+    "warning_thresholds": "low should be less than high",
+    "thresholds": [
+      {
+        "name": "low_treshold",
+        "title": "Low Threshold",
+        "constraints" : {
+          "signed": false,
+          "decimal": true
+        }
+      },
+      {
+        "name": "high_treshold",
+        "title": "High threshold",
+        "constraints" : {
+          "signed": false,
+          "decimal": true
+        }
+      }
+    ],
+    "warning_weights": "",
+    "weights": [
+
+    ]
+  },
+  "Blocking" : {
+    "modifiable" : true,
+    "reportable" : false,
+    "name": "blocking",
+    "endpoint_modify": "/api/thresholds/blocking",
+    "info" : "blocking_info.html",
+    "warning_thresholds": "please set reasonable pause threshold",
+    "thresholds": [
+      {
+        "name": "pause",
+        "title": "Pause Threshold",
+        "constraints" : {
+          "signed": false,
+          "decimal": true
+        }
+      }
+    ],
+    "warning_weights": "",
+    "weights": [
+
+    ]
+  },
+  "Derailment" : {
+    "modifiable" : false,
+    "reportable" : false,
+    "name": "derailment",
+    "endpoint_modify": "",
+    "info" : "derailment_info.html",
+    "warning_thresholds": "",
+    "thresholds": [
+     
+    ],
+    "warning_weights": "",
+    "weights": [
+
+    ]
+  }
+}

@@ -1,9 +1,0 @@
-torch==2.2.1
-torchvision==0.17.1
-visdom
-nibabel
-pandas
-tqdm
-matplotlib
-opencv-python
-

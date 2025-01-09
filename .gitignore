@@ -1,2 +1,7 @@
-data/samples
-data/samples/*
+DeepTald_back_end/.env
+DeepTald_back_end/.venv
+DeepTald_back_end/.venv/*
+DeepTald_back_end/data
+DeepTald_back_end/data/*
+DeepTald_back_end/logs
+DeepTald_back_end/logs/*

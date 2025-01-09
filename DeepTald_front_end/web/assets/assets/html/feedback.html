@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .question {
+            margin-bottom: 25px;
+        }
+
+        .question label {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .options {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .options li {
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="question">
+        <h2>La spiegazione è stata utile?</h2>
+        <ul class="options">
+            <li>
+                <label><input type="radio" name="spiegazione" value="si"> Si</label>
+            </li>
+            <li>
+                <label><input type="radio" name="spiegazione" value="no"> No</label>
+            </li>
+            <li>
+                <label><input type="radio" name="spiegazione" value="non-so"> Non so</label>
+            </li>
+        </ul>
+    </div>
+    <div class="question">
+        <h2>La spiegazione è facilmente interpretabile?</h2>
+        <ul class="options">
+            <li>
+                <label><input type="radio" name="spiegazione" value="si"> Si</label>
+            </li>
+            <li>
+                <label><input type="radio" name="spiegazione" value="no"> No</label>
+            </li>
+            <li>
+                <label><input type="radio" name="spiegazione" value="non-so"> Non so</label>
+            </li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <h2>Sei d'accordo con la risposta fornita?</h2>
+        <ul class="options">
+            <li>
+                <label><input type="radio" name="accordo" value="completamente-disaccordo"> Completamente in disaccordo</label>
+            </li>
+            <li>
+                <label><input type="radio" name="accordo" value="in-disaccordo"> In disaccordo</label>
+            </li>
+            <li>
+                <label><input type="radio" name="accordo" value="neutro"> Neutro</label>
+            </li>
+            <li>
+                <label><input type="radio" name="accordo" value="d'accordo"> D'accordo</label>
+            </li>
+            <li>
+                <label><input type="radio" name="accordo" value="molto-d'accordo"> Molto d'accordo</label>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
