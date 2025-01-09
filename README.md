@@ -65,7 +65,7 @@ The frontend allows users to interact with the audio analysis tool and visualize
 
 1. **Audio File Upload and Transcription:**
 
-![Upload](assets\images\basic_interface.png)
+![Upload](assets/images/basic_interface.png)
 
    - Users can upload audio files directly through the interface for transcription processing.
    - The interface ensures the smooth handling of audio files, displaying the loaded files and managing potential errors.
@@ -78,7 +78,7 @@ The frontend allows users to interact with the audio analysis tool and visualize
 
 2. **TALD Scale Calculation:**
    
-   ![Transcription](assets\images\item_results.png)
+   ![Transcription](assets/images/item_results.png)
 
    - After obtaining the transcription, the interface allows users to compute the TALD scale results for specific items such as:
      - **Logorrhea**
@@ -88,7 +88,7 @@ The frontend allows users to interact with the audio analysis tool and visualize
 
 3. **Adjustable Hyperparameters for Item Calculation:**
 
-![Hyperparam](assets\images\hyperparameter.png)
+![Hyperparam](assets/images/hyperparameter.png)
    - The interface provides options to modify hyperparameters for individual TALD items, offering flexibility in:
      - Adjusting weights for key metrics (e.g., response length and interruptions).
      - Setting thresholds for minimum and maximum response lengths.
@@ -96,7 +96,7 @@ The frontend allows users to interact with the audio analysis tool and visualize
 
 4. **Report Generation for Clinicians:**
 
-![Report](assets\images\report.png)
+![Report](assets/images/report.png)
    - The application supports the generation of detailed reports for clinicians, including:
      - Breakdown of TALD item calculations.
      - Graphical representations of speaking times and interruptions.
