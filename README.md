@@ -38,7 +38,7 @@ A subset of these patients experiences treatment resistance, making early and ac
 
 ### Schizophrenia Symptoms
 
-![Schizophrenia Symptops](docs/images/schizophrenia_symptops.png)
+![Schizophrenia Symptops](assests/images/schizophrenia_symptops.png)
 
 Key dimensions of schizophrenia include:
 - **Speech Disturbances**  
@@ -50,7 +50,7 @@ Key dimensions of schizophrenia include:
 
 ## Methodology
 
-![Methodology](docs/images/methodology.png)
+![Methodology](assests/images/methodology.png)
 
 The project integrates standard and IT-based assessments to analyze the main dimensions of disorganization. Each dimension has specific modules:
 
@@ -64,7 +64,7 @@ The project integrates standard and IT-based assessments to analyze the main dim
 ## The SPECTRA Architecture 
 
 
-![The SPECTRA Architecture](docs/images/the_spectra_architecture.png)
+![The SPECTRA Architecture](assests/images/the_spectra_architecture.png)
 
 ### Data/Pattern Collection
 
@@ -92,13 +92,13 @@ The project integrates standard and IT-based assessments to analyze the main dim
 
 ### Formal Thought Disorders
 
-![Speech Analysis](docs/images/speech_analysis.png)
+![Speech Analysis](assests/images/speech_analysis.png)
 
 - **TALD (Thought And Language Disorder) Scale**  
   - 30 items, scored 0–4, assessing language and thought dysfunctions during clinical observation.
 
 
-![Speech Analysis Pipeline](docs/images/speech_pipeline.png)
+![Speech Analysis Pipeline](assests/images/speech_pipeline.png)
 
 1. **Transcription** (Whisper Model)  
 2. **Diarization** (ECAPA TDNN + K-means)  
@@ -110,21 +110,21 @@ The project integrates standard and IT-based assessments to analyze the main dim
 
 ## Gait Analysis
 
-![Gait Analysis Overview](docs/images/gait_analysis.png)
+![Gait Analysis Overview](assests/images/gait_analysis.png)
 
 - Examines **hip, knee, ankle, neck** movements and **walk metrics** (stride length, step width, velocity).
 - Detects variability in cadence and stride, highlighting potential SZ-related motor impairments.
 
 ### Gait Analysis Methodology
 
-![Gait Analysis 2](docs/images/gait_analysis_2.png)
+![Gait Analysis 2](assests/images/gait_analysis_2.png)
 1. **Multicamera Acquisition** (standard/stereo cameras)
 2. **Skeleton Tracking** (MediaPipe, StackHourglass, etc.)
 3. **Pattern Extraction** (Transformer-based embeddings)
 
 ### Gait Feature Extraction & Explanation
 
-![Gait Analysis SHAP](docs/images/gait_analysis_shap.png)
+![Gait Analysis SHAP](assests/images/gait_analysis_shap.png)
 
 - **Feature Extraction**: Derive relevant motor features (posture, variability, step length).
 - **SHAP Explanation**: Visualize how specific gait features influence classification decisions.
@@ -141,7 +141,7 @@ MRI (including fMRI) and structural MRI for non-invasive study of brain structur
 
 ### Neuroimaging Techniques
 
-![Altered Neuroimaging](docs/images/altered_neuroimaging.png)
+![Altered Neuroimaging](assests/images/altered_neuroimaging.png)
 
 - **CNNs**: Identifying complex visual patterns in MRI.  
 - **Autoencoders**: Dimensionality reduction and feature extraction.  
@@ -149,7 +149,7 @@ MRI (including fMRI) and structural MRI for non-invasive study of brain structur
 
 ### Explainable AI in Neuroimaging
 
-![Altered Neuroimaging 2](docs/images/altered_neuroimaging_2.png)
+![Altered Neuroimaging 2](assests/images/altered_neuroimaging_2.png)
 
 - **Attention Rollout as Activation Map**  
   - Highlights brain regions influencing the classification decisions.
