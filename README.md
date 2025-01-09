@@ -167,10 +167,10 @@ For more information or inquiries:
 
 This main README focuses on the project’s overview and visual workflow. For a detailed breakdown of code organization, refer to our repository’s branch-specific `README.md` files (e.g., `language/README.md`, `motion/README.md`, etc.), which cover the following dimensions:
 
-1. **language/ -> Speech Analysis**  
-2. **motion/ -> Motor/Gait Analysis**  
-3. **neuro/ -> Neuroimaging**  
-4. **emotion/ -> Emotion Recognition**
+1. **feature/language/ -> Speech Analysis**  
+2. **feature/motion/ -> Motor/Gait Analysis**  
+3. **feature/neuro/ -> Neuroimaging**  
+4. **feature/emotion/ -> Emotion Recognition**
 
 ---
 
