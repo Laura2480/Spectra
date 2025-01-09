@@ -61,33 +61,6 @@ The project integrates standard and IT-based assessments to analyze the main dim
 
 ---
 
-## The SPECTRA Architecture 
-
-
-![The SPECTRA Architecture](assests/images/the_spectra_architecture.png)
-
-### Data/Pattern Collection
-
-1. **Standard Assessment**  
-   - Symptom severity, Neurocognition, Metacognition, etc.  
-   - Digitized and stored as tabular data.
-2. **ITC Assessment**  
-   - ECG, EEG, Temperature, Heart Rate, Interviews, Video, Sweating, Skeleton Sequences, MRI.  
-   - Passed through Domain-Specific Transformers to produce embeddings.
-3. **Integrated Database & Meta Classifier**  
-   - Consolidates tabular data and embeddings.  
-   - Determines TRS vs. non-TRS classification.
-
-
-### Diagnosis Support System
-
-1. **Meta Classifier (TRS / no-TRS)**  
-2. **Explainable AI**  
-3. **DSS Interface** for the clinician  
-4. **Decision** (final output and interpretation)
-
----
-
 ## Speech Analysis
 
 ### Formal Thought Disorders
