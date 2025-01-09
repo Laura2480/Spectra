@@ -5,3 +5,5 @@ DeepTald_back_end/data
 DeepTald_back_end/data/*
 DeepTald_back_end/logs
 DeepTald_back_end/logs/*
+DeepTald_back_end/.idea
+DeepTald_back_end/.idea/*
