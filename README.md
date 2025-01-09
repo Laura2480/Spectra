@@ -181,19 +181,4 @@ This main README focuses on the project’s overview and visual workflow. For a 
 - **License**: For licensing details, see the [LICENSE](LICENSE) file in this repository.
 
 Thank you for exploring **The SPECTRA Project**! We appreciate your interest and contributions. 
-```markdown
 
----
-
-### Tips for Use
-
-1. **Adjust Image Paths**  
-   Make sure your image paths (e.g., `docs/images/the_spectra_project.png`) match your actual folder structure.
-
-2. **Branch-Specific Details**  
-   If you maintain code or dimension-specific materials in separate branches/folders (`language`, `moto`, etc.), be sure to include instructions or links to those areas in the main README.
-
-3. **Further Customization**  
-   Feel free to add or remove sections as needed, or to expand the text for each image if you want more in-depth descriptions.
-
-Use this as a starting point for your main README. Adjust formatting, section headings, or content for your specific requirements!
