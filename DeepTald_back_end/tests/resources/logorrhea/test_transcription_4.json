@@ -1,0 +1,682 @@
+[
+    {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 1.5,
+        "text": "Ti piace la pizza?",
+        "speaker": "CLINICIAN",
+        "words": [
+            {
+                "start": 0.0,
+                "end": 0.3,
+                "word": "Ti",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 0.3,
+                "end": 0.6,
+                "word": "piace",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 0.6,
+                "end": 1.2,
+                "word": "la",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 1.2,
+                "end": 1.5,
+                "word": "pizza?",
+                "speaker": "CLINICIAN"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "seek": 0,
+        "start": 1.65,
+        "end": 8.0,
+        "text": "Si, la pizza mi piace tantissimo ed è superiore alla pasta, perché è grande e sembra non finire mai.",
+        "speaker": "PATIENT",
+        "words": [
+            {
+                "start": 1.65,
+                "end": 1.9,
+                "word": "Si,",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 1.9,
+                "end": 2.1,
+                "word": "la",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 2.1,
+                "end": 2.4,
+                "word": "pizza",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 2.4,
+                "end": 2.6,
+                "word": "mi",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 2.6,
+                "end": 2.9,
+                "word": "piace",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 2.9,
+                "end": 3.4,
+                "word": "tantissimo",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 3.4,
+                "end": 3.6,
+                "word": "ed",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 3.6,
+                "end": 3.7,
+                "word": "è",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 3.7,
+                "end": 4.3,
+                "word": "superiore",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 4.3,
+                "end": 4.6,
+                "word": "alla",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 4.6,
+                "end": 5.0,
+                "word": "pasta,",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 5.0,
+                "end": 5.4,
+                "word": "perché",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 5.4,
+                "end": 5.6,
+                "word": "è",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 5.6,
+                "end": 6.1,
+                "word": "grande",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 6.1,
+                "end": 6.2,
+                "word": "e",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 6.2,
+                "end": 6.8,
+                "word": "sembra",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 6.8,
+                "end": 7.0,
+                "word": "non",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 7.0,
+                "end": 7.3,
+                "word": "finire",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 7.3,
+                "end": 7.8,
+                "word": "mai.",
+                "speaker": "PATIENT"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "seek": 0,
+        "start": 8.1,
+        "end": 13.5,
+        "text": "Se dovessi scegliere tra mangiare la pizza e la pasta, sceglierei dunque sempre la pizza.",
+        "speaker": "PATIENT",
+        "words": [
+            {
+                "start": 8.1,
+                "end": 8.3,
+                "word": "Se",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 8.3,
+                "end": 8.7,
+                "word": "dovessi",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 8.7,
+                "end": 9.2,
+                "word": "scegliere",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 9.2,
+                "end": 9.5,
+                "word": "tra",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 9.5,
+                "end": 10.1,
+                "word": "mangiare",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 10.1,
+                "end": 10.3,
+                "word": "la",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 10.3,
+                "end": 10.7,
+                "word": "pizza",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 10.7,
+                "end": 10.9,
+                "word": "e",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 10.9,
+                "end": 11.2,
+                "word": "la",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 11.2,
+                "end": 11.7,
+                "word": "pasta,",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 11.7,
+                "end": 12.1,
+                "word": "sceglierei",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 12.1,
+                "end": 12.5,
+                "word": "dunque",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 12.5,
+                "end": 12.8,
+                "word": "sempre",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 12.8,
+                "end": 13.3,
+                "word": "la",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 13.3,
+                "end": 13.5,
+                "word": "pizza.",
+                "speaker": "PATIENT"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "seek": 0,
+        "start": 13.6,
+        "end": 15.5,
+        "text": "Quale è musica preferita?",
+        "speaker": "CLINICIAN",
+        "words": [
+            {
+                "start": 13.6,
+                "end": 14.0,
+                "word": "Quale",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 14.0,
+                "end": 14.3,
+                "word": "è",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 14.3,
+                "end": 15.0,
+                "word": "musica",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 15.0,
+                "end": 15.5,
+                "word": "preferita?",
+                "speaker": "CLINICIAN"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "seek": 0,
+        "start": 15.6,
+        "end": 22.5,
+        "text": "Quando ero più giovane, mi piacevano i cugini di campagna, perché essendo di campagna sono per me una grande fonte di ispirazione.",
+        "speaker": "PATIENT",
+        "words": [
+            {
+                "start": 15.6,
+                "end": 15.9,
+                "word": "Quando",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 15.9,
+                "end": 16.1,
+                "word": "ero",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 16.1,
+                "end": 16.4,
+                "word": "più",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 16.4,
+                "end": 16.8,
+                "word": "giovane,",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 16.8,
+                "end": 17.2,
+                "word": "mi",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 17.2,
+                "end": 17.5,
+                "word": "piacevano",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 17.5,
+                "end": 17.8,
+                "word": "i",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 17.8,
+                "end": 18.1,
+                "word": "cugini",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 18.1,
+                "end": 18.4,
+                "word": "di",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 18.4,
+                "end": 18.7,
+                "word": "campagna,",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 18.7,
+                "end": 19.0,
+                "word": "perché",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 19.0,
+                "end": 19.2,
+                "word": "essendo",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 19.2,
+                "end": 19.5,
+                "word": "di",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 19.5,
+                "end": 19.7,
+                "word": "campagna",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 19.7,
+                "end": 20.1,
+                "word": "sono",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 20.1,
+                "end": 20.4,
+                "word": "per",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 20.4,
+                "end": 20.6,
+                "word": "me",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 20.6,
+                "end": 20.9,
+                "word": "una",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 20.9,
+                "end": 21.4,
+                "word": "grande",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 21.4,
+                "end": 21.8,
+                "word": "fonte",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 21.8,
+                "end": 22.0,
+                "word": "di",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 22.0,
+                "end": 22.2,
+                "word": "ispirazione.",
+                "speaker": "PATIENT"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "seek": 0,
+        "start": 22.6,
+        "end": 27.0,
+        "text": "Ora mi piace la musica rock e pop, perché è molto più gassante.",
+        "speaker": "PATIENT",
+        "words": [
+            {
+                "start": 22.6,
+                "end": 22.9,
+                "word": "Ora",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 22.9,
+                "end": 23.1,
+                "word": "mi",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 23.1,
+                "end": 23.5,
+                "word": "piace",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 23.5,
+                "end": 23.8,
+                "word": "la",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 23.8,
+                "end": 24.3,
+                "word": "musica",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 24.3,
+                "end": 24.6,
+                "word": "rock",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 24.6,
+                "end": 24.9,
+                "word": "e",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 24.9,
+                "end": 25.1,
+                "word": "pop,",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 25.1,
+                "end": 25.5,
+                "word": "perché",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 25.5,
+                "end": 25.7,
+                "word": "è",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 25.7,
+                "end": 26.2,
+                "word": "molto",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 26.2,
+                "end": 26.6,
+                "word": "più",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 26.6,
+                "end": 27.0,
+                "word": "gassante.",
+                "speaker": "PATIENT"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "seek": 0,
+        "start": 27.1,
+        "end": 29.5,
+        "text": "Quale è il tuo sport preferito?",
+        "speaker": "CLINICIAN",
+        "words": [
+            {
+                "start": 27.1,
+                "end": 27.5,
+                "word": "Quale",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 27.5,
+                "end": 27.8,
+                "word": "è",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 27.8,
+                "end": 28.2,
+                "word": "il",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 28.2,
+                "end": 28.8,
+                "word": "tuo",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 28.8,
+                "end": 29.3,
+                "word": "sport",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 29.3,
+                "end": 29.5,
+                "word": "preferito?",
+                "speaker": "CLINICIAN"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "seek": 0,
+        "start": 29.6,
+        "end": 33.0,
+        "text": "Mi piace giocare a un gioco di carte chiamato Magic, se lo si può definire uno sport.",
+        "speaker": "PATIENT",
+        "words": [
+            {
+                "start": 29.6,
+                "end": 30.0,
+                "word": "Mi",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 30.0,
+                "end": 30.3,
+                "word": "piace",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 30.3,
+                "end": 30.6,
+                "word": "giocare",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 30.6,
+                "end": 31.1,
+                "word": "a",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 31.1,
+                "end": 31.5,
+                "word": "un",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 31.5,
+                "end": 32.0,
+                "word": "gioco",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 32.0,
+                "end": 32.5,
+                "word": "di",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 32.5,
+                "end": 32.8,
+                "word": "carte",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 32.8,
+                "end": 33.3,
+                "word": "chiamato",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 33.3,
+                "end": 33.8,
+                "word": "Magic,",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 33.8,
+                "end": 34.2,
+                "word": "se",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 34.2,
+                "end": 34.6,
+                "word": "lo",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 34.6,
+                "end": 34.9,
+                "word": "si",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 34.9,
+                "end": 35.1,
+                "word": "può",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 35.1,
+                "end": 35.6,
+                "word": "definire",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 35.6,
+                "end": 36.0,
+                "word": "uno",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 36.0,
+                "end": 36.5,
+                "word": "sport.",
+                "speaker": "PATIENT"
+            }
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+{
+     "logorrhea": {
+          "weights": {
+               "interruptions_weight": 0.9,
+               "response_length_weight": 0.1
+          },
+          "thresholds": {
+               "min_value_avg_response_length": 10,
+               "max_value_avg_response_length": 50
+          }
+     },
+     "perseverance": {
+          "weights": {},
+          "thresholds": {
+               "cutoff": 0
+          }
+     },
+     "slowed_thinking": {
+          "weights": {
+               "pause_time_weight": 0.8,
+               "response_time_weight": 0.2
+          },
+          "thresholds": {
+               "min_value_response_time": 3,
+               "max_value_response_time": 8
+          }
+     },
+     "pressure_to_speech": {
+          "weights": {},
+          "thresholds": {
+               "min_num_per_min": 80,
+               "max_num_per_min": 120
+          }
+     },
+     "blocking": {
+          "weights": {},
+          "thresholds": {
+               "pause": 2.0
+          }
+     },
+     "clanging": {
+          "weights": {},
+          "thresholds": {
+               "low_treshold": 2.0,
+               "high_treshold": 5.0
+          }
+     }
+}

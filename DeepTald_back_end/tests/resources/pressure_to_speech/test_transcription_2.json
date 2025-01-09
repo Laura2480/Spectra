@@ -1,0 +1,343 @@
+[
+    {
+        "id": 0,
+        "seek": 0,
+        "start": 0.88,
+        "end": 2.72,
+        "text": " Qual \u00e8 il tuo libro preferito?",
+        "words": [
+            {
+                "word": " Qual",
+                "start": 0.88,
+                "end": 1.42,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " \u00e8",
+                "start": 1.42,
+                "end": 1.56,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " il",
+                "start": 1.56,
+                "end": 1.64,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " tuo",
+                "start": 1.64,
+                "end": 1.7,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " libro",
+                "start": 1.7,
+                "end": 1.94,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " preferito?",
+                "start": 1.94,
+                "end": 2.72,
+                "speaker": "CLINICIAN"
+            }
+        ],
+        "speaker": "CLINICIAN"
+    },
+    {
+        "id": 2,
+        "seek": 0,
+        "start": 4.28,
+        "end": 7.28,
+        "text": " A me di solito piacciono i libri, quelli li sull'orrore.",
+        "words": [
+            {
+                "word": " A",
+                "start": 4.28,
+                "end": 4.4,
+                "probability": 0.7175092697143555,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " me",
+                "start": 4.4,
+                "end": 4.58,
+                "probability": 0.9948219060897827,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " di",
+                "start": 4.58,
+                "end": 4.74,
+                "probability": 0.8601548671722412,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " solito",
+                "start": 4.74,
+                "end": 4.98,
+                "probability": 0.9993846416473389,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piacciono",
+                "start": 4.98,
+                "end": 5.6,
+                "probability": 0.9898723165194193,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " i",
+                "start": 5.6,
+                "end": 5.96,
+                "probability": 0.9581830501556396,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " libri,",
+                "start": 5.96,
+                "end": 6.0,
+                "probability": 0.992446780204773,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " quelli",
+                "start": 6.1,
+                "end": 6.4,
+                "probability": 0.9790781438350677,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " li",
+                "start": 6.5,
+                "end": 6.9,
+                "probability": 0.4444451928138733,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " sull",
+                "start": 7.0,
+                "end": 7.1,
+                "probability": 0.7742952406406403,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": "'orrore.",
+                "start": 7.12,
+                "end": 7.28,
+                "probability": 0.8283677995204926,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 3,
+        "seek": 0,
+        "start": 7.5,
+        "end": 8.6,
+        "text": " Libri horror, thriller, gialli.",
+        "words": [
+            {
+                "word": " Libri",
+                "start": 7.5,
+                "end": 7.95,
+                "probability": 0.9464432001113892,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " horror,",
+                "start": 8.0,
+                "end": 8.25,
+                "probability": 0.9849543571472168,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " thriller,",
+                "start": 8.3,
+                "end": 8.45,
+                "probability": 0.9970985651016235,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " gialli.",
+                "start": 8.5,
+                "end": 8.6,
+                "probability": 0.9841933846473694,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 4,
+        "seek": 0,
+        "start": 13.2,
+        "end": 14.36,
+        "text": " Mi piacciono un sacco.",
+        "words": [
+            {
+                "word": " Mi",
+                "start": 13.2,
+                "end": 13.4,
+                "probability": 0.9800524711608887,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piacciono",
+                "start": 13.4,
+                "end": 13.8,
+                "probability": 0.99797123670578,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " un",
+                "start": 13.8,
+                "end": 14.02,
+                "probability": 0.9799004197120667,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " sacco.",
+                "start": 14.02,
+                "end": 14.36,
+                "probability": 0.9985545575618744,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 5,
+        "seek": 0,
+        "start": 14.84,
+        "end": 15.6,
+        "text": " Tipo?",
+        "words": [
+            {
+                "word": " Tipo?",
+                "start": 14.84,
+                "end": 15.6,
+                "probability": 0.9509373903274536,
+                "speaker": "CLINICIAN"
+            }
+        ],
+        "speaker": "CLINICIAN"
+    },
+    {
+        "id": 6,
+        "seek": 0,
+        "start": 17.0,
+        "end": 20.2,
+        "text": " Una volta ho letto un libro a sfondo religioso, si chiama Il Vangelo, secondo Sada.",
+        "words": [
+            {
+                "word": " Una",
+                "start": 17.0,
+                "end": 17.24,
+                "probability": 0.9454572200775146,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " volta",
+                "start": 17.24,
+                "end": 17.44,
+                "probability": 0.9978330731391907,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " ho",
+                "start": 17.44,
+                "end": 17.56,
+                "probability": 0.987947404384613,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " letto",
+                "start": 17.56,
+                "end": 17.82,
+                "probability": 0.9773941934108734,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " un",
+                "start": 17.82,
+                "end": 18.14,
+                "probability": 0.994570791721344,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " libro",
+                "start": 18.14,
+                "end": 18.52,
+                "probability": 0.9982264637947083,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " a",
+                "start": 18.52,
+                "end": 18.6,
+                "probability": 0.8966453671455383,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " sfondo",
+                "start": 18.65,
+                "end": 18.9,
+                "probability": 0.9876189529895782,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " religioso,",
+                "start": 18.92,
+                "end": 19.15,
+                "probability": 0.9977991282939911,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " si",
+                "start": 19.2,
+                "end": 19.3,
+                "probability": 0.9830271601676941,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " chiama",
+                "start": 19.32,
+                "end": 19.6,
+                "probability": 0.9946340024471283,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Il",
+                "start": 19.62,
+                "end": 19.8,
+                "probability": 0.1940162479877472,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Vangelo,",
+                "start": 19.82,
+                "end": 19.89,
+                "probability": 0.9513574639956156,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " secondo",
+                "start": 19.9,
+                "end": 20.1,
+                "probability": 0.6757281422615051,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Sada.",
+                "start": 20.11,
+                "end": 20.2,
+                "probability": 0.337550051510334,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    }
+]

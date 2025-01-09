@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f0ff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header div {
+            background-color: #89c3ff;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .score-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .score-section h2 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .score {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .content {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .content p {
+            margin: 10px 0;
+        }
+
+        .highlight {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div>Report Item Logorrhoea</div>
+</div>
+
+<div class="score-section">
+    <h2>Final score: <span class="score"> {{ score }}</span></h2>
+</div>
+
+<div class="content">
+    <p><span class="highlight">Two metrics were used for the computation of the logorrhea item:</span></p>
+    <ul>
+        <li>The average length of responses given by the patient to questions asked by the clinician</li>
+        <li>The number of patient-clinician interruptions during the interview</li>
+    </ul>
+    <p>
+        Both metrics weight by default at 50% on the calculation of the final result of the item,
+        but the weight of each metric can be adjusted accordingly.
+
+        <!-- RENDER PLOT -->
+        <img src="data:image/png;base64,{{ plot_64 }}" alt="Plot">
+    </p>
+    <p><span class="highlight">Below will be shown, in more detail, how the final result and the final score were
+            obtained:</span></p>
+    <ul>
+        <li>Number of questions asked by the clinician: {{question_count}}</li>
+        <li>The number of words spoken by the clinician is: {{word_count["CLINICIAN"]}}</li>
+        <li>The number of words spoken by the patient is: {{word_count["PATIENT"]}}</li>
+        <li>Number of interruptions by the patient that occurred during the interview: {{interruption_count}}</li>
+        <li>Average length of patient responses: {{avg_response_length}}</li>
+    </ul>
+</div>
+</body>
+</html>

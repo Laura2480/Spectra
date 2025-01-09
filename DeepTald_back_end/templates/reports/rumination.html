@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f0ff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header div {
+            background-color: #89c3ff;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .score-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .score-section h2 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .score {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .content {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .content p {
+            margin: 10px 0;
+        }
+
+        .highlight {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div>Report Item Rumination</div>
+</div>
+
+<div class="score-section">
+    <h2>Final score: <span class="score"> {{ score }}</span></h2>
+</div>
+
+<div class="content">
+    <p>
+        To compute the score of the rumination item DeepTald considers the
+        number of times during the conversation the patient ruminates, e.g, he
+        returns to a previously discussed topic while assuming a negative tone.
+        DeepTald exploits the cosine similarity, evaluating from time to time whether
+        the patient was able to maintain consistency with the topic introduced by
+        the cliniclan or returned to a previous topic of the conversation, while assuming a negative tone.
+        The threshold of similarity established to consider two sentences as similar is equal to 0.3.
+    </p>
+    <p><span class="highlight">Detailed Report</span></p>
+    <ul>
+        <li>Number of answers given by patient: {{answers_count}}</li>
+        <li>The number of times patient returned to previous topic is: 
+            {% set total_occurences = occurences.values() | map('length') | sum %}
+            {{ total_occurences }}
+        </li>
+    </ul>
+    {% if total_occurences > 0 %}
+    <p><span class="highlight">Detected occurrences</span></p>
+    <ul>
+        <ul>
+            {% for key, value in occurences.items() %}
+                {% if value|length > 0 %}
+                <li><strong>{{ key }}</strong>: 
+                    <ul>
+                        {% for item in value %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </ul>
+    {% else %}
+    <p>No detailed occurrences detected.</p>
+    {% endif %}
+</div>
+</body>
+</html>

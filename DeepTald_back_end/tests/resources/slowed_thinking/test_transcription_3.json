@@ -1,0 +1,134 @@
+[
+      {
+        "speaker": "CLINICIAN",
+        "start": 0.0,
+        "end": 1.5,
+        "text": "Ti piace la pizza?",
+        "words": [
+          { "speaker": "CLINICIAN", "word": "Ti", "start": 0.0, "end": 0.2 },
+          { "speaker": "CLINICIAN", "word": "piace", "start": 0.2, "end": 0.6 },
+          { "speaker": "CLINICIAN", "word": "la", "start": 0.6, "end": 0.8 },
+          { "speaker": "CLINICIAN", "word": "pizza?", "start": 0.8, "end": 1.5 }
+        ]
+      },
+      {
+        "speaker": "PATIENT",
+        "start": 3.0,
+        "end": 4.2,
+        "text": "Si, la pizza mi piace.",
+        "words": [
+          { "speaker": "PATIENT", "word": "Si,", "start": 3.0, "end": 3.2 },
+          { "speaker": "PATIENT", "word": "la", "start": 3.2, "end": 3.4 },
+          { "speaker": "PATIENT", "word": "pizza", "start": 3.4, "end": 3.8 },
+          { "speaker": "PATIENT", "word": "mi", "start": 3.8, "end": 4.0 },
+          { "speaker": "PATIENT", "word": "piace.", "start": 4.0, "end": 4.2 }
+        ]
+      },
+      {
+        "speaker": "PATIENT",
+        "start": 5.7,
+        "end": 8.8,
+        "text": "Se dovessi scegliere tra mangiare la pizza e la pasta, sceglierei sempre la pizza.",
+        "words": [
+          { "speaker": "PATIENT", "word": "Se", "start": 5.7, "end": 5.9 },
+          { "speaker": "PATIENT", "word": "dovessi", "start": 5.9, "end": 6.3 },
+          { "speaker": "PATIENT", "word": "scegliere", "start": 6.3, "end": 6.7 },
+          { "speaker": "PATIENT", "word": "tra", "start": 6.7, "end": 6.9 },
+          { "speaker": "PATIENT", "word": "mangiare", "start": 6.9, "end": 7.3 },
+          { "speaker": "PATIENT", "word": "la", "start": 7.3, "end": 7.4 },
+          { "speaker": "PATIENT", "word": "pizza", "start": 7.4, "end": 7.8 },
+          { "speaker": "PATIENT", "word": "e", "start": 7.8, "end": 7.9 },
+          { "speaker": "PATIENT", "word": "la", "start": 7.9, "end": 8.0 },
+          { "speaker": "PATIENT", "word": "pasta,", "start": 8.0, "end": 8.2 },
+          { "speaker": "PATIENT", "word": "sceglierei", "start": 8.2, "end": 8.6 },
+          { "speaker": "PATIENT", "word": "sempre", "start": 8.6, "end": 8.7 },
+          { "speaker": "PATIENT", "word": "la", "start": 8.7, "end": 8.8 },
+          { "speaker": "PATIENT", "word": "pizza.", "start": 8.8, "end": 8.8 }
+        ]
+      },
+      {
+        "speaker": "CLINICIAN",
+        "start": 9.8,
+        "end": 11.2,
+        "text": "Quale è musica preferita?",
+        "words": [
+          { "speaker": "CLINICIAN", "word": "Quale", "start": 9.8, "end": 10.2 },
+          { "speaker": "CLINICIAN", "word": "è", "start": 10.2, "end": 10.3 },
+          { "speaker": "CLINICIAN", "word": "musica", "start": 10.3, "end": 10.7 },
+          { "speaker": "CLINICIAN", "word": "preferita?", "start": 10.7, "end": 11.2 }
+        ]
+      },
+      {
+        "speaker": "PATIENT",
+        "start": 12.8,
+        "end": 14.5,
+        "text": "Quando ero più giovane, mi piacevano i cugini di campagna.",
+        "words": [
+          { "speaker": "PATIENT", "word": "Quando", "start": 12.8, "end": 13.0 },
+          { "speaker": "PATIENT", "word": "ero", "start": 13.0, "end": 13.2 },
+          { "speaker": "PATIENT", "word": "più", "start": 13.2, "end": 13.3 },
+          { "speaker": "PATIENT", "word": "giovane,", "start": 13.3, "end": 13.7 },
+          { "speaker": "PATIENT", "word": "mi", "start": 13.7, "end": 13.8 },
+          { "speaker": "PATIENT", "word": "piacevano", "start": 13.8, "end": 14.3 },
+          { "speaker": "PATIENT", "word": "i", "start": 14.3, "end": 14.4 },
+          { "speaker": "PATIENT", "word": "cugini", "start": 14.4, "end": 14.5 },
+          { "speaker": "PATIENT", "word": "di", "start": 14.5, "end": 14.5 },
+          { "speaker": "PATIENT", "word": "campagna.", "start": 14.5, "end": 14.5 }
+        ]
+      },
+      {
+        "speaker": "PATIENT",
+        "start": 16.0,
+        "end": 17.2,
+        "text": "Ora mi piace la musica rock.",
+        "words": [
+          { "speaker": "PATIENT", "word": "Ora", "start": 16.0, "end": 16.2 },
+          { "speaker": "PATIENT", "word": "mi", "start": 16.2, "end": 16.4 },
+          { "speaker": "PATIENT", "word": "piace", "start": 16.4, "end": 16.6 },
+          { "speaker": "PATIENT", "word": "la", "start": 16.6, "end": 16.7 },
+          { "speaker": "PATIENT", "word": "musica", "start": 16.7, "end": 17.0 },
+          { "speaker": "PATIENT", "word": "rock.", "start": 17.0, "end": 17.2 }
+        ]
+      },
+      {
+        "speaker": "CLINICIAN",
+        "start": 18.5,
+        "end": 20.0,
+        "text": "Quale è il tuo sport preferito?",
+        "words": [
+          { "speaker": "CLINICIAN", "word": "Quale", "start": 18.5, "end": 18.9 },
+          { "speaker": "CLINICIAN", "word": "è", "start": 18.9, "end": 19.0 },
+          { "speaker": "CLINICIAN", "word": "il", "start": 19.0, "end": 19.1 },
+          { "speaker": "CLINICIAN", "word": "tuo", "start": 19.1, "end": 19.2 },
+          { "speaker": "CLINICIAN", "word": "sport", "start": 19.2, "end": 19.6 },
+          { "speaker": "CLINICIAN", "word": "preferito?", "start": 19.6, "end": 20.0 }
+        ]
+      },
+      {
+        "speaker": "PATIENT",
+        "start": 21.6,
+        "end": 25.0,
+        "text": "Mi piace giocare a un gioco di carte chiamato Magic, se lo si può definire uno sport.",
+        "words": [
+          { "speaker": "PATIENT", "word": "Mi", "start": 21.6, "end": 21.8 },
+          { "speaker": "PATIENT", "word": "piace", "start": 21.8, "end": 22.0 },
+          { "speaker": "PATIENT", "word": "giocare", "start": 22.0, "end": 22.4 },
+          { "speaker": "PATIENT", "word": "a", "start": 22.4, "end": 22.5 },
+          { "speaker": "PATIENT", "word": "un", "start": 22.5, "end": 22.6 },
+          { "speaker": "PATIENT", "word": "gioco", "start": 22.6, "end": 22.9 },
+          { "speaker": "PATIENT", "word": "di", "start": 22.9, "end": 23.0 },
+          { "speaker": "PATIENT", "word": "carte", "start": 23.0, "end": 23.2 },
+          { "speaker": "PATIENT", "word": "chiamato", "start": 23.2, "end": 23.6 },
+          { "speaker": "PATIENT", "word": "Magic,", "start": 23.6, "end": 23.8 },
+          { "speaker": "PATIENT", "word": "se", "start": 23.8, "end": 24.0 },
+          { "speaker": "PATIENT", "word": "lo", "start": 24.0, "end": 24.1 },
+          { "speaker": "PATIENT", "word": "si", "start": 24.1, "end": 24.2 },
+          { "speaker": "PATIENT", "word": "può", "start": 24.2, "end": 24.3 },
+          { "speaker": "PATIENT", "word": "definire", "start": 24.3, "end": 24.7 },
+          { "speaker": "PATIENT", "word": "uno", "start": 24.7, "end": 24.8 },
+          { "speaker": "PATIENT", "word": "sport.", "start": 24.8, "end": 25.0 }
+        ]
+      }
+]
+
+  

@@ -1,0 +1,296 @@
+[
+    {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 1.5,
+        "text": "Come ti sei sentita ieri?",
+        "speaker": "CLINICIAN",
+        "words": [
+            {
+                "start": 0.0,
+                "end": 0.3,
+                "word": "Come",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 0.3,
+                "end": 0.5,
+                "word": "ti",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 0.5,
+                "end": 0.7,
+                "word": "sei",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 0.7,
+                "end": 1.0,
+                "word": "sentita",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 1.0,
+                "end": 1.5,
+                "word": "ieri?",
+                "speaker": "CLINICIAN"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "seek": 1.5,
+        "start": 2.0,
+        "end": 4.5,
+        "text": "Ieri, mi sono sentita benissimo, perché erano le vacanze.",
+        "speaker": "PATIENT",
+        "words": [
+            {
+                "start": 2.0,
+                "end": 2.5,
+                "word": "Ieri,",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 2.5,
+                "end": 2.8,
+                "word": "mi",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 2.8,
+                "end": 3.0,
+                "word": "sono",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 3.0,
+                "end": 3.3,
+                "word": "sentita",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 3.3,
+                "end": 3.9,
+                "word": "benissimo,",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 3.9,
+                "end": 4.3,
+                "word": "perché",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 4.3,
+                "end": 4.5,
+                "word": "erano",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 4.5,
+                "end": 4.5,
+                "word": "le",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 4.5,
+                "end": 4.5,
+                "word": "vacanze.",
+                "speaker": "PATIENT"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "seek": 4.5,
+        "start": 5.0,
+        "end": 6.5,
+        "text": "Quale è la tua pizza preferita?",
+        "speaker": "CLINICIAN",
+        "words": [
+            {
+                "start": 5.0,
+                "end": 5.3,
+                "word": "Quale",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 5.3,
+                "end": 5.5,
+                "word": "è",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 5.5,
+                "end": 5.7,
+                "word": "la",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 5.7,
+                "end": 6.0,
+                "word": "tua",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 6.0,
+                "end": 6.3,
+                "word": "pizza",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 6.3,
+                "end": 6.5,
+                "word": "preferita?",
+                "speaker": "CLINICIAN"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "seek": 6.5,
+        "start": 7.0,
+        "end": 9.0,
+        "text": "Ieri, mi sono sentita al settimo cielo.",
+        "speaker": "PATIENT",
+        "words": [
+            {
+                "start": 7.0,
+                "end": 7.5,
+                "word": "Ieri,",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 7.5,
+                "end": 7.8,
+                "word": "mi",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 7.8,
+                "end": 8.0,
+                "word": "sono",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 8.0,
+                "end": 8.3,
+                "word": "sentita",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 8.3,
+                "end": 8.9,
+                "word": "al",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 8.9,
+                "end": 9.0,
+                "word": "settimo",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 9.0,
+                "end": 9.0,
+                "word": "cielo.",
+                "speaker": "PATIENT"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "seek": 9.0,
+        "start": 9.5,
+        "end": 11.0,
+        "text": "Quale è il tuo sport preferito?",
+        "speaker": "CLINICIAN",
+        "words": [
+            {
+                "start": 9.5,
+                "end": 9.8,
+                "word": "Quale",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 9.8,
+                "end": 10.0,
+                "word": "è",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 10.0,
+                "end": 10.3,
+                "word": "il",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 10.3,
+                "end": 10.5,
+                "word": "tuo",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 10.5,
+                "end": 10.8,
+                "word": "sport",
+                "speaker": "CLINICIAN"
+            },
+            {
+                "start": 10.8,
+                "end": 11.0,
+                "word": "preferito?",
+                "speaker": "CLINICIAN"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "seek": 11.0,
+        "start": 11.5,
+        "end": 13.0,
+        "text": "Ieri, sono riuscita a dormire bene.",
+        "speaker": "PATIENT",
+        "words": [
+            {
+                "start": 11.5,
+                "end": 12.0,
+                "word": "Ieri,",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 12.0,
+                "end": 12.3,
+                "word": "sono",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 12.3,
+                "end": 12.6,
+                "word": "riuscita",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 12.6,
+                "end": 12.9,
+                "word": "a",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 12.9,
+                "end": 13.0,
+                "word": "dormire",
+                "speaker": "PATIENT"
+            },
+            {
+                "start": 13.0,
+                "end": 13.0,
+                "word": "bene.",
+                "speaker": "PATIENT"
+            }
+        ]
+    }
+]

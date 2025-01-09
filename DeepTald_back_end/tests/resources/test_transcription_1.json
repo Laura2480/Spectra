@@ -1,0 +1,2806 @@
+[
+    {
+        "id": 0,
+        "seek": 0,
+        "start": 0.88,
+        "end": 2.72,
+        "text": " Qual \u00e8 il tuo libro preferito?",
+        "tokens": [
+            50364,
+            13616,
+            4873,
+            1930,
+            45352,
+            29354,
+            4382,
+            3528,
+            30,
+            50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22057895973080494,
+        "compression_ratio": 1.5069767441860464,
+        "no_speech_prob": 0.17733801901340485,
+        "words": [
+            {
+                "word": " Qual",
+                "start": 0.88,
+                "end": 1.42,
+                "probability": 0.25155818462371826,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " \u00e8",
+                "start": 1.42,
+                "end": 1.56,
+                "probability": 0.7696752548217773,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " il",
+                "start": 1.56,
+                "end": 1.64,
+                "probability": 0.9325892925262451,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " tuo",
+                "start": 1.64,
+                "end": 1.7,
+                "probability": 0.9714088439941406,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " libro",
+                "start": 1.7,
+                "end": 1.94,
+                "probability": 0.9975726008415222,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " preferito?",
+                "start": 1.94,
+                "end": 2.72,
+                "probability": 0.9955277442932129,
+                "speaker": "CLINICIAN"
+            }
+        ],
+        "speaker": "CLINICIAN"
+    },
+    {
+        "id": 2,
+        "seek": 0,
+        "start": 4.28,
+        "end": 9.28,
+        "text": " A me di solito piacciono i libri, quelli li sull'orrore.",
+        "tokens": [
+            50564,
+            316,
+            385,
+            1026,
+            1404,
+            3528,
+            3895,
+            8476,
+            49020,
+            741,
+            22854,
+            470,
+            11,
+            631,
+            16320,
+            375,
+            459,
+            285,
+            6,
+            47385,
+            265,
+            13,
+            50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22057895973080494,
+        "compression_ratio": 1.5069767441860464,
+        "no_speech_prob": 0.17733801901340485,
+        "words": [
+            {
+                "word": " A",
+                "start": 4.28,
+                "end": 4.4,
+                "probability": 0.7175092697143555,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " me",
+                "start": 4.4,
+                "end": 4.58,
+                "probability": 0.9948219060897827,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " di",
+                "start": 4.58,
+                "end": 4.74,
+                "probability": 0.8601548671722412,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " solito",
+                "start": 4.74,
+                "end": 4.98,
+                "probability": 0.9993846416473389,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piacciono",
+                "start": 4.98,
+                "end": 5.6,
+                "probability": 0.9898723165194193,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " i",
+                "start": 5.6,
+                "end": 5.96,
+                "probability": 0.9581830501556396,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " libri,",
+                "start": 5.96,
+                "end": 6.3,
+                "probability": 0.992446780204773,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " quelli",
+                "start": 6.34,
+                "end": 6.76,
+                "probability": 0.9790781438350677,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " li",
+                "start": 6.76,
+                "end": 7.48,
+                "probability": 0.4444451928138733,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " sull",
+                "start": 7.48,
+                "end": 7.88,
+                "probability": 0.7742952406406403,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": "'orrore.",
+                "start": 7.88,
+                "end": 9.28,
+                "probability": 0.8283677995204926,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 3,
+        "seek": 0,
+        "start": 9.5,
+        "end": 13.08,
+        "text": " Libri horror, thriller, gialli.",
+        "tokens": [
+            50814,
+            15834,
+            470,
+            11501,
+            11,
+            43009,
+            11,
+            1735,
+            336,
+            72,
+            13,
+            51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22057895973080494,
+        "compression_ratio": 1.5069767441860464,
+        "no_speech_prob": 0.17733801901340485,
+        "words": [
+            {
+                "word": " Libri",
+                "start": 9.5,
+                "end": 9.82,
+                "probability": 0.9464432001113892,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " horror,",
+                "start": 9.82,
+                "end": 10.4,
+                "probability": 0.9849543571472168,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " thriller,",
+                "start": 10.66,
+                "end": 11.52,
+                "probability": 0.9970985651016235,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " gialli.",
+                "start": 12.12,
+                "end": 13.08,
+                "probability": 0.9841933846473694,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 4,
+        "seek": 0,
+        "start": 13.2,
+        "end": 14.76,
+        "text": " Mi piacciono un sacco.",
+        "tokens": [
+            51014,
+            10204,
+            3895,
+            8476,
+            49020,
+            517,
+            4899,
+            1291,
+            13,
+            51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22057895973080494,
+        "compression_ratio": 1.5069767441860464,
+        "no_speech_prob": 0.17733801901340485,
+        "words": [
+            {
+                "word": " Mi",
+                "start": 13.2,
+                "end": 13.4,
+                "probability": 0.9800524711608887,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piacciono",
+                "start": 13.4,
+                "end": 13.8,
+                "probability": 0.99797123670578,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " un",
+                "start": 13.8,
+                "end": 14.02,
+                "probability": 0.9799004197120667,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " sacco.",
+                "start": 14.02,
+                "end": 14.76,
+                "probability": 0.9985545575618744,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 5,
+        "seek": 0,
+        "start": 14.84,
+        "end": 15.6,
+        "text": " Tipo?",
+        "tokens": [
+            51114,
+            18210,
+            78,
+            30,
+            51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22057895973080494,
+        "compression_ratio": 1.5069767441860464,
+        "no_speech_prob": 0.17733801901340485,
+        "words": [
+            {
+                "word": " Tipo?",
+                "start": 14.84,
+                "end": 15.6,
+                "probability": 0.9509373903274536,
+                "speaker": "CLINICIAN"
+            }
+        ],
+        "speaker": "CLINICIAN"
+    },
+    {
+        "id": 6,
+        "seek": 0,
+        "start": 17.0,
+        "end": 22.14,
+        "text": " Una volta ho letto un libro a sfondo religioso, si chiama Il Vangelo, secondo Sada.",
+        "tokens": [
+            51164,
+            15491,
+            18765,
+            1106,
+            718,
+            1353,
+            517,
+            29354,
+            257,
+            47095,
+            27720,
+            4039,
+            23540,
+            11,
+            1511,
+            13228,
+            2404,
+            4416,
+            691,
+            656,
+            10590,
+            11,
+            41601,
+            318,
+            1538,
+            13,
+            51464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22057895973080494,
+        "compression_ratio": 1.5069767441860464,
+        "no_speech_prob": 0.17733801901340485,
+        "words": [
+            {
+                "word": " Una",
+                "start": 17.0,
+                "end": 17.24,
+                "probability": 0.9454572200775146,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " volta",
+                "start": 17.24,
+                "end": 17.44,
+                "probability": 0.9978330731391907,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " ho",
+                "start": 17.44,
+                "end": 17.56,
+                "probability": 0.987947404384613,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " letto",
+                "start": 17.56,
+                "end": 17.82,
+                "probability": 0.9773941934108734,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " un",
+                "start": 17.82,
+                "end": 18.14,
+                "probability": 0.994570791721344,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " libro",
+                "start": 18.14,
+                "end": 18.52,
+                "probability": 0.9982264637947083,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " a",
+                "start": 18.52,
+                "end": 18.8,
+                "probability": 0.8966453671455383,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " sfondo",
+                "start": 18.8,
+                "end": 19.16,
+                "probability": 0.9876189529895782,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " religioso,",
+                "start": 19.16,
+                "end": 20.0,
+                "probability": 0.9977991282939911,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " si",
+                "start": 20.38,
+                "end": 20.52,
+                "probability": 0.9830271601676941,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " chiama",
+                "start": 20.52,
+                "end": 20.66,
+                "probability": 0.9946340024471283,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Il",
+                "start": 20.66,
+                "end": 20.86,
+                "probability": 0.1940162479877472,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Vangelo,",
+                "start": 20.86,
+                "end": 21.3,
+                "probability": 0.9513574639956156,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " secondo",
+                "start": 21.44,
+                "end": 21.7,
+                "probability": 0.6757281422615051,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Sada.",
+                "start": 21.7,
+                "end": 22.14,
+                "probability": 0.337550051510334,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 7,
+        "seek": 0,
+        "start": 22.38,
+        "end": 28.66,
+        "text": " Mi \u00e8 piaciuto molto, proprio il tipo di scrittura, come scriveva, fluiva molto.",
+        "tokens": [
+            51464,
+            10204,
+            4873,
+            3895,
+            22086,
+            8262,
+            16394,
+            11,
+            28203,
+            1930,
+            9746,
+            1026,
+            5918,
+            593,
+            2991,
+            11,
+            808,
+            5545,
+            303,
+            2757,
+            11,
+            5029,
+            5931,
+            16394,
+            13,
+            51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22057895973080494,
+        "compression_ratio": 1.5069767441860464,
+        "no_speech_prob": 0.17733801901340485,
+        "words": [
+            {
+                "word": " Mi",
+                "start": 22.38,
+                "end": 22.62,
+                "probability": 0.9864798188209534,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " \u00e8",
+                "start": 22.62,
+                "end": 22.66,
+                "probability": 0.9660855531692505,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piaciuto",
+                "start": 22.66,
+                "end": 23.02,
+                "probability": 0.9912974635759989,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " molto,",
+                "start": 23.02,
+                "end": 23.44,
+                "probability": 0.9970303773880005,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " proprio",
+                "start": 24.44,
+                "end": 24.44,
+                "probability": 0.9314433932304382,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " il",
+                "start": 24.44,
+                "end": 24.7,
+                "probability": 0.7473774552345276,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " tipo",
+                "start": 24.7,
+                "end": 24.96,
+                "probability": 0.9953546524047852,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " di",
+                "start": 24.96,
+                "end": 26.18,
+                "probability": 0.9904906749725342,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " scrittura,",
+                "start": 26.18,
+                "end": 26.88,
+                "probability": 0.9593699177106222,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " come",
+                "start": 27.0,
+                "end": 27.2,
+                "probability": 0.980361819267273,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " scriveva,",
+                "start": 27.2,
+                "end": 27.76,
+                "probability": 0.8800151348114014,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " fluiva",
+                "start": 27.94,
+                "end": 28.16,
+                "probability": 0.9013452529907227,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " molto.",
+                "start": 28.16,
+                "end": 28.66,
+                "probability": 0.9950030446052551,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 8,
+        "seek": 2866,
+        "start": 28.66,
+        "end": 30.8,
+        "text": " Mi \u00e8 piaciuto particolarmente.",
+        "tokens": [
+            50364,
+            10204,
+            4873,
+            3895,
+            22086,
+            8262,
+            1276,
+            15276,
+            4082,
+            13,
+            50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15936535426548548,
+        "compression_ratio": 1.2986111111111112,
+        "no_speech_prob": 0.006079592276364565,
+        "words": [
+            {
+                "word": " Mi",
+                "start": 28.66,
+                "end": 29.34,
+                "probability": 0.3060208261013031,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " \u00e8",
+                "start": 29.34,
+                "end": 29.44,
+                "probability": 0.9458779096603394,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piaciuto",
+                "start": 29.44,
+                "end": 29.76,
+                "probability": 0.9627091884613037,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " particolarmente.",
+                "start": 29.76,
+                "end": 30.8,
+                "probability": 0.9909847378730774,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 9,
+        "seek": 2866,
+        "start": 32.12,
+        "end": 41.38,
+        "text": " Senn\u00f2 mi piacciono i libri, quelli li per bambini, gli atlanti, libri di scienze.",
+        "tokens": [
+            50464,
+            318,
+            1857,
+            4293,
+            2752,
+            3895,
+            8476,
+            49020,
+            741,
+            22854,
+            470,
+            11,
+            631,
+            16320,
+            375,
+            680,
+            272,
+            2173,
+            3812,
+            11,
+            17161,
+            412,
+            75,
+            11520,
+            11,
+            22854,
+            470,
+            1026,
+            2180,
+            268,
+            1381,
+            13,
+            50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15936535426548548,
+        "compression_ratio": 1.2986111111111112,
+        "no_speech_prob": 0.006079592276364565,
+        "words": [
+            {
+                "word": " Senn\u00f2",
+                "start": 32.12,
+                "end": 32.58,
+                "probability": 0.7350858151912689,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " mi",
+                "start": 32.58,
+                "end": 33.14,
+                "probability": 0.9360665082931519,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piacciono",
+                "start": 33.14,
+                "end": 34.5,
+                "probability": 0.992770791053772,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " i",
+                "start": 34.5,
+                "end": 35.44,
+                "probability": 0.7541247606277466,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " libri,",
+                "start": 35.44,
+                "end": 35.84,
+                "probability": 0.9842256605625153,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " quelli",
+                "start": 35.9,
+                "end": 36.06,
+                "probability": 0.9665230214595795,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " li",
+                "start": 36.06,
+                "end": 36.28,
+                "probability": 0.1677953004837036,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " per",
+                "start": 36.28,
+                "end": 36.42,
+                "probability": 0.9623919725418091,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " bambini,",
+                "start": 36.42,
+                "end": 37.7,
+                "probability": 0.9943176110585531,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " gli",
+                "start": 37.9,
+                "end": 38.08,
+                "probability": 0.9845051169395447,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " atlanti,",
+                "start": 38.08,
+                "end": 38.66,
+                "probability": 0.8141971031824747,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " libri",
+                "start": 38.82,
+                "end": 39.12,
+                "probability": 0.7212133854627609,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " di",
+                "start": 39.12,
+                "end": 39.32,
+                "probability": 0.9923256635665894,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " scienze.",
+                "start": 39.32,
+                "end": 41.38,
+                "probability": 0.9632557431856791,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 10,
+        "seek": 2866,
+        "start": 43.16,
+        "end": 47.44,
+        "text": " Ad esempio io da piccola leggevo Geronimo Stilton, che mi piaceva molto.",
+        "tokens": [
+            51064,
+            1999,
+            33627,
+            19785,
+            1120,
+            13363,
+            66,
+            4711,
+            1676,
+            432,
+            3080,
+            9409,
+            266,
+            6934,
+            745,
+            15200,
+            11,
+            947,
+            2752,
+            50062,
+            2757,
+            16394,
+            13,
+            51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15936535426548548,
+        "compression_ratio": 1.2986111111111112,
+        "no_speech_prob": 0.006079592276364565,
+        "words": [
+            {
+                "word": " Ad",
+                "start": 43.16,
+                "end": 43.3,
+                "probability": 0.9247648119926453,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " esempio",
+                "start": 43.3,
+                "end": 43.48,
+                "probability": 0.9984275102615356,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " io",
+                "start": 43.48,
+                "end": 43.68,
+                "probability": 0.8796367049217224,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " da",
+                "start": 43.68,
+                "end": 43.8,
+                "probability": 0.9859375357627869,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piccola",
+                "start": 43.8,
+                "end": 44.24,
+                "probability": 0.9870834151903788,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " leggevo",
+                "start": 44.24,
+                "end": 44.74,
+                "probability": 0.9662782549858093,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Geronimo",
+                "start": 44.74,
+                "end": 45.38,
+                "probability": 0.8322654366493225,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Stilton,",
+                "start": 45.38,
+                "end": 45.94,
+                "probability": 0.9570252597332001,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " che",
+                "start": 46.1,
+                "end": 46.18,
+                "probability": 0.9622828364372253,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " mi",
+                "start": 46.18,
+                "end": 46.34,
+                "probability": 0.989974319934845,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piaceva",
+                "start": 46.34,
+                "end": 46.8,
+                "probability": 0.9992454349994659,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " molto.",
+                "start": 46.8,
+                "end": 47.44,
+                "probability": 0.9988700747489929,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 11,
+        "seek": 4744,
+        "start": 51.88,
+        "end": 54.58,
+        "text": " Per\u00f2 di solito io non leggo.",
+        "tokens": [
+            50414,
+            20533,
+            1026,
+            1404,
+            3528,
+            19785,
+            2107,
+            1676,
+            1571,
+            13,
+            50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15868822733561197,
+        "compression_ratio": 1.4816753926701571,
+        "no_speech_prob": 0.11827870458364487,
+        "words": [
+            {
+                "word": " Per\u00f2",
+                "start": 51.88,
+                "end": 52.48,
+                "probability": 0.31672900915145874,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " di",
+                "start": 52.48,
+                "end": 52.72,
+                "probability": 0.6417093873023987,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " solito",
+                "start": 52.72,
+                "end": 53.08,
+                "probability": 0.9996403157711029,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " io",
+                "start": 53.08,
+                "end": 53.3,
+                "probability": 0.985813558101654,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " non",
+                "start": 53.3,
+                "end": 53.56,
+                "probability": 0.9982170462608337,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " leggo.",
+                "start": 53.56,
+                "end": 54.58,
+                "probability": 0.9799225926399231,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 12,
+        "seek": 4744,
+        "start": 54.78,
+        "end": 58.96,
+        "text": " Da piccola leggevo di pi\u00f9, adesso ci sta in internet.",
+        "tokens": [
+            50664,
+            3933,
+            13363,
+            66,
+            4711,
+            1676,
+            432,
+            3080,
+            1026,
+            10589,
+            11,
+            39552,
+            6983,
+            342,
+            1301,
+            294,
+            4705,
+            13,
+            50914
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15868822733561197,
+        "compression_ratio": 1.4816753926701571,
+        "no_speech_prob": 0.11827870458364487,
+        "words": [
+            {
+                "word": " Da",
+                "start": 54.78,
+                "end": 54.98,
+                "probability": 0.9901245832443237,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piccola",
+                "start": 54.98,
+                "end": 55.56,
+                "probability": 0.9947973887125651,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " leggevo",
+                "start": 55.56,
+                "end": 56.06,
+                "probability": 0.9672436515490214,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " di",
+                "start": 56.06,
+                "end": 56.36,
+                "probability": 0.9930397272109985,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " pi\u00f9,",
+                "start": 56.36,
+                "end": 56.74,
+                "probability": 0.9925442934036255,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " adesso",
+                "start": 57.04,
+                "end": 57.4,
+                "probability": 0.9581133127212524,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " ci",
+                "start": 57.4,
+                "end": 57.7,
+                "probability": 0.9414899945259094,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " sta",
+                "start": 57.7,
+                "end": 57.86,
+                "probability": 0.7185005247592926,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " in",
+                "start": 57.86,
+                "end": 58.14,
+                "probability": 0.5063567757606506,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " internet.",
+                "start": 58.14,
+                "end": 58.96,
+                "probability": 0.6671833395957947,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 13,
+        "seek": 4744,
+        "start": 62.56,
+        "end": 65.18,
+        "text": " Nei libri di Geronimo Stilton c'erano le parole quelle?",
+        "tokens": [
+            51064,
+            1734,
+            72,
+            22854,
+            470,
+            1026,
+            9409,
+            266,
+            6934,
+            745,
+            15200,
+            269,
+            6,
+            260,
+            3730,
+            476,
+            26783,
+            29237,
+            30,
+            51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15868822733561197,
+        "compression_ratio": 1.4816753926701571,
+        "no_speech_prob": 0.11827870458364487,
+        "words": [
+            {
+                "word": " Nei",
+                "start": 62.56,
+                "end": 62.92,
+                "probability": 0.6377562284469604,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " libri",
+                "start": 62.92,
+                "end": 63.04,
+                "probability": 0.9914149343967438,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " di",
+                "start": 63.04,
+                "end": 63.24,
+                "probability": 0.967187225818634,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " Geronimo",
+                "start": 63.24,
+                "end": 63.48,
+                "probability": 0.8660415410995483,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " Stilton",
+                "start": 63.48,
+                "end": 63.84,
+                "probability": 0.8608922064304352,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " c",
+                "start": 63.84,
+                "end": 64.1,
+                "probability": 0.6783754229545593,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": "'erano",
+                "start": 64.1,
+                "end": 64.22,
+                "probability": 0.9975971778233846,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " le",
+                "start": 64.22,
+                "end": 64.52,
+                "probability": 0.968553364276886,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " parole",
+                "start": 64.52,
+                "end": 64.78,
+                "probability": 0.9948240518569946,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " quelle?",
+                "start": 64.78,
+                "end": 65.18,
+                "probability": 0.7758629322052002,
+                "speaker": "CLINICIAN"
+            }
+        ],
+        "speaker": "CLINICIAN"
+    },
+    {
+        "id": 14,
+        "seek": 4744,
+        "start": 65.2,
+        "end": 68.22,
+        "text": " S\u00ec, erano molto divertenti.",
+        "tokens": [
+            51214,
+            318,
+            4749,
+            11,
+            1189,
+            3730,
+            16394,
+            23781,
+            23012,
+            13,
+            51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15868822733561197,
+        "compression_ratio": 1.4816753926701571,
+        "no_speech_prob": 0.11827870458364487,
+        "words": [
+            {
+                "word": " S\u00ec,",
+                "start": 65.2,
+                "end": 66.04,
+                "probability": 0.842660665512085,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " erano",
+                "start": 66.56,
+                "end": 66.84,
+                "probability": 0.733005627989769,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " molto",
+                "start": 66.84,
+                "end": 67.24,
+                "probability": 0.9971543550491333,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " divertenti.",
+                "start": 67.24,
+                "end": 68.22,
+                "probability": 0.9949954152107239,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 15,
+        "seek": 4744,
+        "start": 68.4,
+        "end": 72.08,
+        "text": " Io il primo libro che ho preso, aspetta qual era?",
+        "tokens": [
+            51364,
+            19239,
+            1930,
+            38671,
+            29354,
+            947,
+            1106,
+            1183,
+            78,
+            11,
+            382,
+            7275,
+            1328,
+            4101,
+            4249,
+            30,
+            51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15868822733561197,
+        "compression_ratio": 1.4816753926701571,
+        "no_speech_prob": 0.11827870458364487,
+        "words": [
+            {
+                "word": " Io",
+                "start": 68.4,
+                "end": 68.66,
+                "probability": 0.4804927110671997,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " il",
+                "start": 68.66,
+                "end": 68.68,
+                "probability": 0.9463916420936584,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " primo",
+                "start": 68.68,
+                "end": 68.9,
+                "probability": 0.9917962551116943,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " libro",
+                "start": 68.9,
+                "end": 69.24,
+                "probability": 0.9950485825538635,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " che",
+                "start": 69.24,
+                "end": 69.38,
+                "probability": 0.9951257109642029,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " ho",
+                "start": 69.38,
+                "end": 69.68,
+                "probability": 0.9995197057723999,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " preso,",
+                "start": 69.68,
+                "end": 70.86,
+                "probability": 0.9835624694824219,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " aspetta",
+                "start": 71.0,
+                "end": 71.48,
+                "probability": 0.9455826679865519,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " qual",
+                "start": 71.48,
+                "end": 71.74,
+                "probability": 0.5650660991668701,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " era?",
+                "start": 71.74,
+                "end": 72.08,
+                "probability": 0.5973257422447205,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 16,
+        "seek": 4744,
+        "start": 72.36,
+        "end": 74.28,
+        "text": " La famiglia Tenebrax.",
+        "tokens": [
+            51564,
+            2369,
+            1087,
+            328,
+            14218,
+            314,
+            1450,
+            6198,
+            87,
+            13,
+            51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15868822733561197,
+        "compression_ratio": 1.4816753926701571,
+        "no_speech_prob": 0.11827870458364487,
+        "words": [
+            {
+                "word": " La",
+                "start": 72.36,
+                "end": 72.52,
+                "probability": 0.5372618436813354,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " famiglia",
+                "start": 72.52,
+                "end": 73.1,
+                "probability": 0.9429469704627991,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Tenebrax.",
+                "start": 73.1,
+                "end": 74.28,
+                "probability": 0.8310872614383698,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 17,
+        "seek": 4744,
+        "start": 74.54,
+        "end": 77.1,
+        "text": " Geronimo Stilton e la famiglia Tenebrax.",
+        "tokens": [
+            51664,
+            9409,
+            266,
+            6934,
+            745,
+            15200,
+            308,
+            635,
+            1087,
+            328,
+            14218,
+            314,
+            1450,
+            6198,
+            87,
+            13,
+            51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15868822733561197,
+        "compression_ratio": 1.4816753926701571,
+        "no_speech_prob": 0.11827870458364487,
+        "words": [
+            {
+                "word": " Geronimo",
+                "start": 74.54,
+                "end": 75.16,
+                "probability": 0.9589173595110575,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Stilton",
+                "start": 75.16,
+                "end": 75.56,
+                "probability": 0.9962060749530792,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " e",
+                "start": 75.56,
+                "end": 75.72,
+                "probability": 0.8023664951324463,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " la",
+                "start": 75.72,
+                "end": 75.88,
+                "probability": 0.9056709408760071,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " famiglia",
+                "start": 75.88,
+                "end": 76.26,
+                "probability": 0.9917346437772115,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Tenebrax.",
+                "start": 76.26,
+                "end": 77.1,
+                "probability": 0.9961437731981277,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 18,
+        "seek": 7710,
+        "start": 77.5,
+        "end": 79.6,
+        "text": " Mi piaceva molto.",
+        "tokens": [
+            50364,
+            10204,
+            50062,
+            2757,
+            16394,
+            13,
+            50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17844214719884535,
+        "compression_ratio": 1.38125,
+        "no_speech_prob": 0.0014065696159377694,
+        "words": [
+            {
+                "word": " Mi",
+                "start": 77.5,
+                "end": 78.36,
+                "probability": 0.216781347990036,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piaceva",
+                "start": 78.36,
+                "end": 78.94,
+                "probability": 0.9959567189216614,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " molto.",
+                "start": 78.94,
+                "end": 79.6,
+                "probability": 0.9969360828399658,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 19,
+        "seek": 7710,
+        "start": 81.48,
+        "end": 85.0,
+        "text": " Poi nel Regno della Fantasia sempre Geronimo Stilton.",
+        "tokens": [
+            50564,
+            430,
+            4869,
+            15373,
+            4791,
+            1771,
+            11618,
+            12885,
+            25251,
+            9553,
+            9409,
+            266,
+            6934,
+            745,
+            15200,
+            13,
+            50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17844214719884535,
+        "compression_ratio": 1.38125,
+        "no_speech_prob": 0.0014065696159377694,
+        "words": [
+            {
+                "word": " Poi",
+                "start": 81.48,
+                "end": 82.02,
+                "probability": 0.9640108644962311,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " nel",
+                "start": 82.02,
+                "end": 82.26,
+                "probability": 0.6765732169151306,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Regno",
+                "start": 82.26,
+                "end": 82.56,
+                "probability": 0.7117135375738144,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " della",
+                "start": 82.56,
+                "end": 82.8,
+                "probability": 0.9800159335136414,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Fantasia",
+                "start": 82.8,
+                "end": 83.38,
+                "probability": 0.9548116624355316,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " sempre",
+                "start": 83.38,
+                "end": 83.74,
+                "probability": 0.36081498861312866,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Geronimo",
+                "start": 83.74,
+                "end": 84.32,
+                "probability": 0.6472496446222067,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Stilton.",
+                "start": 84.32,
+                "end": 85.0,
+                "probability": 0.9418885409832001,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 20,
+        "seek": 7710,
+        "start": 86.48,
+        "end": 88.14,
+        "text": " Ne ho comprati due.",
+        "tokens": [
+            50814,
+            10204,
+            1106,
+            16802,
+            6908,
+            3462,
+            13,
+            50914
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17844214719884535,
+        "compression_ratio": 1.38125,
+        "no_speech_prob": 0.0014065696159377694,
+        "words": [
+            {
+                "word": " Ne",
+                "start": 86.48,
+                "end": 87.02,
+                "probability": 0.9122971892356873,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " ho",
+                "start": 87.02,
+                "end": 87.22,
+                "probability": 0.9472194910049438,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " comprati",
+                "start": 87.22,
+                "end": 87.5,
+                "probability": 0.7361739873886108,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " due.",
+                "start": 87.5,
+                "end": 88.14,
+                "probability": 0.9230517148971558,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 21,
+        "seek": 7710,
+        "start": 88.9,
+        "end": 89.98,
+        "text": " Erano molto belli.",
+        "tokens": [
+            50914,
+            3300,
+            3730,
+            16394,
+            48006,
+            13,
+            51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17844214719884535,
+        "compression_ratio": 1.38125,
+        "no_speech_prob": 0.0014065696159377694,
+        "words": [
+            {
+                "word": " Erano",
+                "start": 88.9,
+                "end": 89.12,
+                "probability": 0.8020175695419312,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " molto",
+                "start": 89.12,
+                "end": 89.52,
+                "probability": 0.9961536526679993,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " belli.",
+                "start": 89.52,
+                "end": 89.98,
+                "probability": 0.9910523295402527,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 22,
+        "seek": 7710,
+        "start": 91.46,
+        "end": 94.02,
+        "text": " Si sentivano tutte le puzze, i profumi.",
+        "tokens": [
+            51014,
+            4909,
+            2279,
+            592,
+            3730,
+            38632,
+            476,
+            2362,
+            89,
+            1381,
+            11,
+            741,
+            1740,
+            17800,
+            13,
+            51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17844214719884535,
+        "compression_ratio": 1.38125,
+        "no_speech_prob": 0.0014065696159377694,
+        "words": [
+            {
+                "word": " Si",
+                "start": 91.46,
+                "end": 91.72,
+                "probability": 0.6836814880371094,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " sentivano",
+                "start": 91.72,
+                "end": 92.28,
+                "probability": 0.9938910404841105,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " tutte",
+                "start": 92.28,
+                "end": 92.52,
+                "probability": 0.9831181764602661,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " le",
+                "start": 92.52,
+                "end": 92.8,
+                "probability": 0.9963662624359131,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " puzze,",
+                "start": 92.8,
+                "end": 93.1,
+                "probability": 0.8697745402654012,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " i",
+                "start": 93.22,
+                "end": 93.36,
+                "probability": 0.9702385663986206,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " profumi.",
+                "start": 93.36,
+                "end": 94.02,
+                "probability": 0.9953512251377106,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 23,
+        "seek": 7710,
+        "start": 94.98,
+        "end": 96.98,
+        "text": " Ogni Regno aveva il suo profumo.",
+        "tokens": [
+            51164,
+            14883,
+            3722,
+            4791,
+            1771,
+            3472,
+            2757,
+            1930,
+            34197,
+            1740,
+            40904,
+            13,
+            51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17844214719884535,
+        "compression_ratio": 1.38125,
+        "no_speech_prob": 0.0014065696159377694,
+        "words": [
+            {
+                "word": " Ogni",
+                "start": 94.98,
+                "end": 95.24,
+                "probability": 0.9805485606193542,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " Regno",
+                "start": 95.24,
+                "end": 95.7,
+                "probability": 0.7605027854442596,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " aveva",
+                "start": 95.7,
+                "end": 96.0,
+                "probability": 0.9870991408824921,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " il",
+                "start": 96.0,
+                "end": 96.12,
+                "probability": 0.9916219711303711,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " suo",
+                "start": 96.12,
+                "end": 96.32,
+                "probability": 0.9900396466255188,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " profumo.",
+                "start": 96.32,
+                "end": 96.98,
+                "probability": 0.9978891909122467,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 24,
+        "seek": 7710,
+        "start": 97.3,
+        "end": 98.74,
+        "text": " Molto bello.",
+        "tokens": [
+            51314,
+            28278,
+            1353,
+            312,
+            1913,
+            13,
+            51414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17844214719884535,
+        "compression_ratio": 1.38125,
+        "no_speech_prob": 0.0014065696159377694,
+        "words": [
+            {
+                "word": " Molto",
+                "start": 97.3,
+                "end": 97.68,
+                "probability": 0.9710475504398346,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " bello.",
+                "start": 97.68,
+                "end": 98.74,
+                "probability": 0.9937964677810669,
+                "speaker": "CLINICIAN"
+            }
+        ],
+        "speaker": "CLINICIAN"
+    },
+    {
+        "id": 25,
+        "seek": 7710,
+        "start": 103.66,
+        "end": 105.16,
+        "text": " Hai una pizza preferita?",
+        "tokens": [
+            51664,
+            24055,
+            2002,
+            8298,
+            4382,
+            2786,
+            30,
+            51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17844214719884535,
+        "compression_ratio": 1.38125,
+        "no_speech_prob": 0.0014065696159377694,
+        "words": [
+            {
+                "word": " Hai",
+                "start": 103.66,
+                "end": 103.84,
+                "probability": 0.8615311980247498,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " una",
+                "start": 103.84,
+                "end": 104.22,
+                "probability": 0.9916913509368896,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " pizza",
+                "start": 104.22,
+                "end": 104.52,
+                "probability": 0.9780600666999817,
+                "speaker": "CLINICIAN"
+            },
+            {
+                "word": " preferita?",
+                "start": 104.52,
+                "end": 105.16,
+                "probability": 0.9970329999923706,
+                "speaker": "CLINICIAN"
+            }
+        ],
+        "speaker": "CLINICIAN"
+    },
+    {
+        "id": 26,
+        "seek": 10516,
+        "start": 107.58,
+        "end": 111.42,
+        "text": " Allora, in particolare mi piace la pizza senza la mozzarella.",
+        "tokens": [
+            50364,
+            1057,
+            3252,
+            11,
+            294,
+            1276,
+            43141,
+            2752,
+            50062,
+            635,
+            8298,
+            36208,
+            635,
+            44135,
+            13,
+            50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17087773176339957,
+        "compression_ratio": 1.5207373271889402,
+        "no_speech_prob": 0.005319416057318449,
+        "words": [
+            {
+                "word": " Allora,",
+                "start": 107.58,
+                "end": 108.14,
+                "probability": 0.6416932046413422,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " in",
+                "start": 108.34,
+                "end": 108.7,
+                "probability": 0.9367206692695618,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " particolare",
+                "start": 108.7,
+                "end": 109.16,
+                "probability": 0.9948061406612396,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " mi",
+                "start": 109.16,
+                "end": 109.38,
+                "probability": 0.9375705718994141,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piace",
+                "start": 109.38,
+                "end": 109.58,
+                "probability": 0.9963485598564148,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " la",
+                "start": 109.58,
+                "end": 109.86,
+                "probability": 0.9917373061180115,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " pizza",
+                "start": 109.86,
+                "end": 110.08,
+                "probability": 0.9816275238990784,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " senza",
+                "start": 110.08,
+                "end": 110.46,
+                "probability": 0.993441104888916,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " la",
+                "start": 110.46,
+                "end": 110.74,
+                "probability": 0.9400246739387512,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " mozzarella.",
+                "start": 110.74,
+                "end": 111.42,
+                "probability": 0.8272380828857422,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 27,
+        "seek": 10516,
+        "start": 113.0,
+        "end": 115.0,
+        "text": " Quella l\u00ec napoletana, per\u00f2 senza l\u00ec.",
+        "tokens": [
+            50664,
+            4493,
+            3505,
+            287,
+            4749,
+            9296,
+            401,
+            302,
+            2095,
+            11,
+            12673,
+            36208,
+            287,
+            4749,
+            13,
+            50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17087773176339957,
+        "compression_ratio": 1.5207373271889402,
+        "no_speech_prob": 0.005319416057318449,
+        "words": [
+            {
+                "word": " Quella",
+                "start": 113.0,
+                "end": 113.24,
+                "probability": 0.8518505394458771,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " l\u00ec",
+                "start": 113.24,
+                "end": 113.72,
+                "probability": 0.7486599236726761,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " napoletana,",
+                "start": 113.72,
+                "end": 114.32,
+                "probability": 0.8892157524824142,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " per\u00f2",
+                "start": 114.48,
+                "end": 114.52,
+                "probability": 0.9217450618743896,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " senza",
+                "start": 114.52,
+                "end": 114.78,
+                "probability": 0.8977092504501343,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " l\u00ec.",
+                "start": 114.78,
+                "end": 115.0,
+                "probability": 0.6985277682542801,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 28,
+        "seek": 10516,
+        "start": 115.42,
+        "end": 120.8,
+        "text": " Io sono fissata con la dieta, essere vegetariana, cose del genere.",
+        "tokens": [
+            50864,
+            19239,
+            9259,
+            283,
+            891,
+            3274,
+            416,
+            635,
+            37967,
+            11,
+            19799,
+            5764,
+            289,
+            8497,
+            11,
+            30261,
+            1103,
+            41553,
+            13,
+            51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17087773176339957,
+        "compression_ratio": 1.5207373271889402,
+        "no_speech_prob": 0.005319416057318449,
+        "words": [
+            {
+                "word": " Io",
+                "start": 115.42,
+                "end": 115.74,
+                "probability": 0.8778749704360962,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " sono",
+                "start": 115.74,
+                "end": 116.34,
+                "probability": 0.9369072914123535,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " fissata",
+                "start": 116.34,
+                "end": 116.98,
+                "probability": 0.9901555975278219,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " con",
+                "start": 116.98,
+                "end": 118.12,
+                "probability": 0.9697641134262085,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " la",
+                "start": 118.12,
+                "end": 118.38,
+                "probability": 0.9786384701728821,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " dieta,",
+                "start": 118.38,
+                "end": 118.66,
+                "probability": 0.9971375465393066,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " essere",
+                "start": 119.08,
+                "end": 119.08,
+                "probability": 0.9883119463920593,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " vegetariana,",
+                "start": 119.08,
+                "end": 120.1,
+                "probability": 0.9844910701115926,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " cose",
+                "start": 120.28,
+                "end": 120.38,
+                "probability": 0.39765968918800354,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " del",
+                "start": 120.38,
+                "end": 120.58,
+                "probability": 0.8639419674873352,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " genere.",
+                "start": 120.58,
+                "end": 120.8,
+                "probability": 0.9983161687850952,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 29,
+        "seek": 10516,
+        "start": 121.02,
+        "end": 123.88,
+        "text": " La mozzarella \u00e8 ad esempio un formaggio che non mangio molto.",
+        "tokens": [
+            51114,
+            2369,
+            44135,
+            4873,
+            614,
+            33627,
+            517,
+            1254,
+            30763,
+            947,
+            2107,
+            587,
+            17862,
+            16394,
+            13,
+            51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17087773176339957,
+        "compression_ratio": 1.5207373271889402,
+        "no_speech_prob": 0.005319416057318449,
+        "words": [
+            {
+                "word": " La",
+                "start": 121.02,
+                "end": 121.16,
+                "probability": 0.9800946712493896,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " mozzarella",
+                "start": 121.16,
+                "end": 121.68,
+                "probability": 0.9934408068656921,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " \u00e8",
+                "start": 121.68,
+                "end": 121.86,
+                "probability": 0.28626352548599243,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " ad",
+                "start": 121.86,
+                "end": 121.9,
+                "probability": 0.6696073412895203,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " esempio",
+                "start": 121.9,
+                "end": 122.08,
+                "probability": 0.9995489716529846,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " un",
+                "start": 122.08,
+                "end": 122.28,
+                "probability": 0.9855734705924988,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " formaggio",
+                "start": 122.28,
+                "end": 122.66,
+                "probability": 0.9983594715595245,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " che",
+                "start": 122.66,
+                "end": 122.82,
+                "probability": 0.9895700216293335,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " non",
+                "start": 122.82,
+                "end": 122.96,
+                "probability": 0.9977236390113831,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " mangio",
+                "start": 122.96,
+                "end": 123.28,
+                "probability": 0.9633450508117676,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " molto.",
+                "start": 123.28,
+                "end": 123.88,
+                "probability": 0.9968200922012329,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 30,
+        "seek": 10516,
+        "start": 125.3,
+        "end": 128.54,
+        "text": " Mangio alcuni tipi di pizza pure che mi piacciono.",
+        "tokens": [
+            51264,
+            35487,
+            1004,
+            20005,
+            24307,
+            4125,
+            72,
+            1026,
+            8298,
+            6075,
+            947,
+            2752,
+            3895,
+            8476,
+            49020,
+            13,
+            51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17087773176339957,
+        "compression_ratio": 1.5207373271889402,
+        "no_speech_prob": 0.005319416057318449,
+        "words": [
+            {
+                "word": " Mangio",
+                "start": 125.3,
+                "end": 125.96,
+                "probability": 0.7764205038547516,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " alcuni",
+                "start": 125.96,
+                "end": 126.48,
+                "probability": 0.9963721334934235,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " tipi",
+                "start": 126.48,
+                "end": 126.8,
+                "probability": 0.9975468814373016,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " di",
+                "start": 126.8,
+                "end": 127.18,
+                "probability": 0.9932729005813599,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " pizza",
+                "start": 127.18,
+                "end": 127.46,
+                "probability": 0.9797198176383972,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " pure",
+                "start": 127.46,
+                "end": 127.64,
+                "probability": 0.4961428642272949,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " che",
+                "start": 127.64,
+                "end": 127.82,
+                "probability": 0.9667160511016846,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " mi",
+                "start": 127.82,
+                "end": 128.06,
+                "probability": 0.9963866472244263,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piacciono.",
+                "start": 128.06,
+                "end": 128.54,
+                "probability": 0.9904941320419312,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 31,
+        "seek": 10516,
+        "start": 128.72,
+        "end": 133.88,
+        "text": " Sono quelle col pomodoro fresco, con la rucola.",
+        "tokens": [
+            51514,
+            48344,
+            29237,
+            1173,
+            12991,
+            378,
+            10780,
+            25235,
+            1291,
+            11,
+            416,
+            635,
+            367,
+            1311,
+            4711,
+            13,
+            51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17087773176339957,
+        "compression_ratio": 1.5207373271889402,
+        "no_speech_prob": 0.005319416057318449,
+        "words": [
+            {
+                "word": " Sono",
+                "start": 128.72,
+                "end": 128.8,
+                "probability": 0.9577608704566956,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " quelle",
+                "start": 128.8,
+                "end": 128.98,
+                "probability": 0.9682124257087708,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " col",
+                "start": 128.98,
+                "end": 129.2,
+                "probability": 0.5933595299720764,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " pomodoro",
+                "start": 129.2,
+                "end": 129.86,
+                "probability": 0.9972706437110901,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " fresco,",
+                "start": 129.86,
+                "end": 131.6,
+                "probability": 0.9770642817020416,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " con",
+                "start": 131.86,
+                "end": 132.5,
+                "probability": 0.9475415349006653,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " la",
+                "start": 132.5,
+                "end": 133.3,
+                "probability": 0.9737703800201416,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " rucola.",
+                "start": 133.3,
+                "end": 133.88,
+                "probability": 0.9826005498568217,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 32,
+        "seek": 13388,
+        "start": 135.12,
+        "end": 137.14,
+        "text": " Pomodoro fresco e il parmigiano.",
+        "tokens": [
+            50364,
+            21227,
+            378,
+            10780,
+            25235,
+            1291,
+            308,
+            1930,
+            971,
+            76,
+            328,
+            6254,
+            13,
+            50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.18672895431518555,
+        "compression_ratio": 1.2123893805309736,
+        "no_speech_prob": 0.017740696668624878,
+        "words": [
+            {
+                "word": " Pomodoro",
+                "start": 135.12,
+                "end": 135.58,
+                "probability": 0.7122888763745626,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " fresco",
+                "start": 135.58,
+                "end": 135.44,
+                "probability": 0.7381918430328369,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " e",
+                "start": 135.44,
+                "end": 136.04,
+                "probability": 0.9168831706047058,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " il",
+                "start": 136.04,
+                "end": 136.2,
+                "probability": 0.8632209897041321,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " parmigiano.",
+                "start": 136.2,
+                "end": 137.14,
+                "probability": 0.9147796779870987,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 33,
+        "seek": 13388,
+        "start": 137.26,
+        "end": 138.54,
+        "text": " Quello pure mi piace un sacco.",
+        "tokens": [
+            50514,
+            4493,
+            1913,
+            6075,
+            2752,
+            50062,
+            517,
+            4899,
+            1291,
+            13,
+            50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.18672895431518555,
+        "compression_ratio": 1.2123893805309736,
+        "no_speech_prob": 0.017740696668624878,
+        "words": [
+            {
+                "word": " Quello",
+                "start": 137.26,
+                "end": 137.54,
+                "probability": 0.8475103676319122,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " pure",
+                "start": 137.54,
+                "end": 137.68,
+                "probability": 0.9664955139160156,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " mi",
+                "start": 137.68,
+                "end": 137.9,
+                "probability": 0.9584802985191345,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " piace",
+                "start": 137.9,
+                "end": 138.1,
+                "probability": 0.9979690909385681,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " un",
+                "start": 138.1,
+                "end": 138.26,
+                "probability": 0.9735177755355835,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " sacco.",
+                "start": 138.26,
+                "end": 138.54,
+                "probability": 0.9987369179725647,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    },
+    {
+        "id": 34,
+        "seek": 13388,
+        "start": 138.68,
+        "end": 143.34,
+        "text": " Per\u00f2 ad esempio io non mangio carne, quindi scelgo questo tipo di pizza.",
+        "tokens": [
+            50614,
+            20533,
+            614,
+            33627,
+            19785,
+            2107,
+            587,
+            17862,
+            30089,
+            11,
+            15727,
+            795,
+            338,
+            1571,
+            10263,
+            9746,
+            1026,
+            8298,
+            13,
+            50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.18672895431518555,
+        "compression_ratio": 1.2123893805309736,
+        "no_speech_prob": 0.017740696668624878,
+        "words": [
+            {
+                "word": " Per\u00f2",
+                "start": 138.68,
+                "end": 138.76,
+                "probability": 0.5553459525108337,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " ad",
+                "start": 138.76,
+                "end": 138.86,
+                "probability": 0.7652103304862976,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " esempio",
+                "start": 138.86,
+                "end": 139.1,
+                "probability": 0.9995993971824646,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " io",
+                "start": 139.1,
+                "end": 139.32,
+                "probability": 0.922032356262207,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " non",
+                "start": 139.32,
+                "end": 139.52,
+                "probability": 0.9969371557235718,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " mangio",
+                "start": 139.52,
+                "end": 139.78,
+                "probability": 0.9765833616256714,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " carne,",
+                "start": 139.78,
+                "end": 140.3,
+                "probability": 0.9935719966888428,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " quindi",
+                "start": 141.94,
+                "end": 142.02,
+                "probability": 0.9561010599136353,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " scelgo",
+                "start": 142.02,
+                "end": 142.42,
+                "probability": 0.8398279547691345,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " questo",
+                "start": 142.42,
+                "end": 142.66,
+                "probability": 0.9943313598632812,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " tipo",
+                "start": 142.66,
+                "end": 142.86,
+                "probability": 0.9979839324951172,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " di",
+                "start": 142.86,
+                "end": 143.18,
+                "probability": 0.9977405071258545,
+                "speaker": "PATIENT"
+            },
+            {
+                "word": " pizza.",
+                "start": 143.18,
+                "end": 143.34,
+                "probability": 0.49865108728408813,
+                "speaker": "PATIENT"
+            }
+        ],
+        "speaker": "PATIENT"
+    }
+]
