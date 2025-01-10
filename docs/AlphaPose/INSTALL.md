@@ -14,51 +14,15 @@
 
 ### Code installation
 
-#### (Recommended) Install with conda
-
-Install conda from [here](https://repo.anaconda.com/miniconda/), Miniconda3-latest-(OS)-(platform).
-```shell
-# 1. Create a conda virtual environment.
-conda create -n alphapose python=3.7 -y
-conda activate alphapose
-
-# 2. Install PyTorch
-conda install pytorch torchvision torchaudio pytorch-cuda=11.3 -c pytorch -c nvidia 
-
-# 3. Get AlphaPose
-git clone https://github.com/MVIG-SJTU/AlphaPose.git
-cd AlphaPose
-
-
-# 4. install
-export PATH=/usr/local/cuda/bin/:$PATH
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64/:$LD_LIBRARY_PATH
-python -m pip install cython
-sudo apt-get install libyaml-dev
-################Only For Ubuntu 18.04#################
-locale-gen C.UTF-8
-# if locale-gen not found
-sudo apt-get install locales
-export LANG=C.UTF-8
-######################################################
-python setup.py build develop
-
-# 5. Install PyTorch3D (Optional, only for visualization)
-conda install -c fvcore -c iopath -c conda-forge fvcore iopath
-conda install -c bottler nvidiacub
-pip install git+ssh://git@github.com/facebookresearch/pytorch3d.git@stable
-```
-
-#### Install with pip
 ```shell
 # 1. Install PyTorch
-pip3 install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu113
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
 
 # Check torch environment by:  python3 -m torch.tracker_utils.collect_env
 
-# 2. Get AlphaPose
-git clone https://github.com/MVIG-SJTU/AlphaPose.git
-cd AlphaPose
+# 2. Get Repo
+git clone --branch feature/motion --single-branch https://github.com/Laura2480/Spectra.git
+cd Spectra/src
 
 # 3. install
 export PATH=/usr/local/cuda/bin/:$PATH
@@ -134,7 +98,6 @@ If you want to train the model by yourself, please download data from [Halpe-Ful
 ```
 |-- json
 |-- exp
-|-- alphapose
 |-- configs
 |-- test
 |-- data
