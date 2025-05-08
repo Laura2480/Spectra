@@ -1,0 +1,3 @@
+[submodule "taldetect-fe"]
+	path = taldetect-fe
+	url = https://github.com/imlodo/taldetect-fe
