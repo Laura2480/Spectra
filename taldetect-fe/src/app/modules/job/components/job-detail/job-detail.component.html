@@ -1,0 +1,44 @@
+<mat-card *ngIf="jobData != null" class="job-card">
+  <mat-card-header>
+    <div class="detail-item">
+      <mat-icon>description</mat-icon>
+      <mat-card-title>{{ jobData.filename }}</mat-card-title>
+    </div>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="detail-item">
+      <mat-icon>key</mat-icon>
+      <span><strong>{{ "job.detail.uploadId" | translate }}</strong> {{ jobData.upload_id }}</span>
+    </div>
+    <div class="detail-item">
+      <mat-icon>flag</mat-icon>
+      <span><strong>{{ "job.detail.step" | translate }}</strong> {{ "job.detail.step_"+ jobData.step |translate}}</span>
+    </div>
+    <div class="detail-item">
+      <mat-icon>{{ getStatusIcon(jobData.status) }}</mat-icon>
+      <span><strong>{{ "job.detail.status" | translate }}</strong> {{ "job.detail.status_"+ jobData.status | lowercase |
+        translate }}</span>
+    </div>
+    <div class="detail-item" *ngIf="jobData.status != 'COMPLETED'">
+      <mat-icon>sync</mat-icon>
+      <span><strong>{{ "job.detail.progress" | translate }}</strong> {{ ( progress > 0 ? (progress | number:'1.2-2')+"%" : 'N/A')
+        }}</span>
+    </div>
+    <div class="detail-item">
+      <mat-icon>schedule</mat-icon>
+      <span><strong>{{ "job.detail.created_at" | translate }}</strong> {{ jobData.created_at }}</span>
+    </div>
+    <div class="detail-item">
+      <mat-icon>update</mat-icon>
+      <span><strong>{{ "job.detail.updated_at" | translate }}</strong> {{ jobData.updated_at }}</span>
+    </div>
+    <div class="detail-item" *ngIf="jobData.completed_at != null">
+      <mat-icon>done_all</mat-icon>
+      <span><strong>{{ "job.detail.completed_at" | translate }}</strong> {{ jobData.completed_at }}</span>
+    </div>
+  </mat-card-content>
+  <mat-card-actions class="justify-content-end">
+    <button type="button" class="btn btn-sm btn-outline-secondary" (click)="goBack()">{{ "buttons.back.label" |
+      translate }}</button>
+  </mat-card-actions>
+</mat-card>

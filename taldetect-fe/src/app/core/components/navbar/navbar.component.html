@@ -1,0 +1,45 @@
+<mat-toolbar color="primary">
+
+    <ng-container *ngIf="userSession; else loginTemplate">
+
+        <div class="logo pointer" routerLink="/">
+            <img src="assets/logo.svg" alt="Logo" />
+        </div>
+        <span class="spacer"></span>
+
+        <nav>
+            <a mat-button routerLink="/patients">{{ "navbar.patients" | translate }}</a>
+        </nav>
+        <nav>
+            <a mat-button routerLink="/interview-analysis">{{ "navbar.interview-analysis-label" | translate }}</a>
+        </nav>
+
+        <nav>
+            <button mat-button [matMenuTriggerFor]="userMenu" class="user-button">
+                <span class="user-login">{{ "navbar.label-hello" | translate}}, {{ userSession.name }}!</span>
+                <mat-icon>account_circle</mat-icon>
+            </button>
+            <mat-menu #userMenu="matMenu" class="user-menu">
+                <ng-template matMenuContent>
+                    <div class="user-card">
+                        <img [src]="userSession.profilePic || 'assets/default-avatar.png'" style="width: 50%; height: 80%; border-radius: 50%; object-fit: cover; border: 2px solid #007bff; 
+                                   margin-left: 25%; margin-top: 10px; margin-bottom: 25px;" alt="User Profile">
+                        <div class="user-info" style="margin-left:25px;">
+                            <h3> {{ userSession.name }} {{ userSession.surname }}</h3>
+                            <p>{{ "navbar.menu-email" | translate}}: {{ userSession.email }}</p>
+                        </div>
+                        <button mat-button (click)="logout()" class="logout-button" style="width: 80%; color: white; background-color: #007bff; border-radius: 5px; 
+                                   text-transform: uppercase; font-weight: bold; text-align: center; 
+                                   margin-left: 25px; margin-right: 25px; transition: background-color 0.3s ease-in-out; 
+                                   margin-top: 10px;">{{ "navbar.menu-logout" | translate}}</button>
+                    </div>
+                </ng-template>
+            </mat-menu>
+        </nav>
+    </ng-container>
+
+    <ng-template #loginTemplate>
+        <span class="spacer"></span>
+        <mat-icon class="login-icon" (click)="redirectToLogin()">account_circle</mat-icon>
+    </ng-template>
+</mat-toolbar>

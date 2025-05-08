@@ -1,0 +1,13 @@
+.step-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+::ng-deep .mat-horizontal-stepper-header {
+  pointer-events: none;
+}
+
+::ng-deep .mat-horizontal-stepper-header button.mat-step-edit-button {
+  display: none !important;
+}

@@ -1,0 +1,67 @@
+<div>
+    <h2>{{ "stepper.configuration.title" | translate }}</h2>
+    <div class="full-width">
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>{{ "stepper.configuration.diarizationModel" | translate }}</mat-label>
+            <mat-select [(value)]="selectedDiarizationModel" (valueChange)="onChangeView();">
+                @for (diarizationModel of diarizationModels; track diarizationModel) {
+                <mat-option [value]="diarizationModel.value">{{diarizationModel.name}}</mat-option>
+                }
+            </mat-select>
+        </mat-form-field>
+    </div>
+
+    <div class="full-width">
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>{{ "stepper.configuration.transcriptionModel" | translate }}</mat-label>
+            <mat-select [(value)]="selectedTranscriptionModel" (valueChange)="onChangeView();">
+                @for (transcriptionModel of transcriptionModels; track transcriptionModel) {
+                <mat-option [value]="transcriptionModel.value">{{transcriptionModel.name}}</mat-option>
+                }
+            </mat-select>
+        </mat-form-field>
+    </div>
+
+    <div class="full-width">
+        <mat-form-field appearance="fill" class="full-width">
+            <mat-label>{{ "stepper.configuration.anlysisModel" | translate }}</mat-label>
+            <mat-select [(value)]="selectedGptModel" (valueChange)="onChangeView();">
+                @for (gptModel of gptModels; track gptModel) {
+                <mat-option [value]="gptModel.value">{{gptModel.name}}</mat-option>
+                }
+            </mat-select>
+        </mat-form-field>
+    </div>
+</div>
+
+<hr />
+
+<div>
+    <h2>{{ "stepper.configuration.features.title" | translate }}</h2>
+    <mat-checkbox [(ngModel)]="selectAllFeatures" (change)="selectAllFeaturesChanged(); onChangeView();">{{ "stepper.configuration.selectAll" | translate }}</mat-checkbox>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4" *ngFor="let feature of features">
+                <mat-checkbox [(ngModel)]="feature.checked" [value]="feature.name" [checked]="feature.checked" (change)="onChangeView()">
+                    {{ feature.name }} <mat-icon matTooltip="{{ feature.description }}" class="info-icon" aria-hidden="false" aria-label="Info" fontIcon="info"></mat-icon>
+                </mat-checkbox>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div>
+    <h2>{{ "stepper.configuration.parameters.title" | translate }}</h2>
+    <mat-checkbox [(ngModel)]="selectAllParameters" (change)="selectAllParametersChanged(); onChangeView();">{{ "stepper.configuration.selectAll" | translate }}</mat-checkbox>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4" *ngFor="let parameter of parameters">
+                <mat-checkbox [(ngModel)]="parameter.checked" [value]="parameter.name" [checked]="parameter.checked" (change)="onChangeView()">
+                    {{ parameter.name }} <mat-icon matTooltip="{{ parameter.description }}" class="info-icon" aria-hidden="false" aria-label="Info" fontIcon="info"></mat-icon>
+                </mat-checkbox>
+            </div>
+        </div>
+    </div>
+</div>

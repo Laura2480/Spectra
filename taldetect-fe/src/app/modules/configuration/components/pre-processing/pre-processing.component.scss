@@ -1,0 +1,15 @@
+.full-width {
+    width: 100%;
+}
+
+:host ::ng-deep .mdc-form-field>label {
+    margin-left: -5px;
+}
+
+.info-icon {
+    font-size: 21px;
+    cursor: pointer;
+    margin-left: 5px;
+    vertical-align: middle;
+    color: #3f51b5;
+}

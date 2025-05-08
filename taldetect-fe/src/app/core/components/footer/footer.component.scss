@@ -1,0 +1,55 @@
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+
+    a {
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    a:hover {
+        color: #adb5bd;
+    }
+
+    h5 {
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .mat-icon {
+        font-size: 24px;
+    }
+
+    .uk-flag {
+        position: relative;
+        width: 30px;
+        height: 20px;
+        background:
+            linear-gradient(to right, transparent calc(50% - 1px), #cf142b calc(50% - 1px), #cf142b calc(50% + 1px), transparent calc(50% + 1px)),
+            linear-gradient(to bottom, transparent calc(50% - 1px), #cf142b calc(50% - 1px), #cf142b calc(50% + 1px), transparent calc(50% + 1px)),
+            linear-gradient(to right, transparent calc(50% - 3px), #ffffff calc(50% - 3px), #ffffff calc(50% + 3px), transparent calc(50% + 3px)),
+            linear-gradient(to bottom, transparent calc(50% - 3px), #ffffff calc(50% - 3px), #ffffff calc(50% + 3px), transparent calc(50% + 3px)),
+            linear-gradient(45deg, transparent 45%, #cf142b 45%, #cf142b 55%, transparent 55%),
+            linear-gradient(-45deg, transparent 45%, #cf142b 45%, #cf142b 55%, transparent 55%),
+            linear-gradient(45deg, transparent 40%, #ffffff 40%, #ffffff 60%, transparent 60%),
+            linear-gradient(-45deg, transparent 40%, #ffffff 40%, #ffffff 60%, transparent 60%),
+            #012169;
+        background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal, normal;
+    }
+
+    .it-flag {
+        width: 30px;
+        height: 20px;
+        background: linear-gradient(to right,
+                #009246 0%,
+                #009246 33.33%,
+                #ffffff 33.33%,
+                #ffffff 66.66%,
+                #cf2734 66.66%,
+                #cf2734 100%);
+    }
+
+}

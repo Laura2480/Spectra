@@ -1,0 +1,96 @@
+.d-flex.flex-column {
+  flex: 1 1 0px;
+  background: #dadfff;
+  border-radius: 10px;
+}
+
+:host ::ng-deep .mat-mdc-table {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+::ng-deep .mat-header-cell {
+  background-color: transparent !important;
+}
+
+::ng-deep .mat-mdc-paginator {
+  background-color: transparent !important;
+}
+
+.table-container {
+  background: #e8ebfa;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+::ng-deep .mat-mdc-header-cell,
+::ng-deep .mat-mdc-cell {
+  text-align: center !important;
+}
+
+.homepage-container {
+  //height: calc(100vh);
+  //display: flex;
+  justify-content: center;
+  //flex-direction: column;
+  //padding: 40px 0px;
+}
+
+.notification-item {
+  width: 90%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  transition: background 0.3s;
+  margin-bottom: 5px;
+  margin-left: 5%;
+}
+
+.notification-item:hover {
+  background: #f9f9f9;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(-10deg);
+  }
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+.notification-icon {
+  animation: shake 1s ease-in-out infinite;
+}
+
+.notification-wrapper {
+  max-height: none;
+  overflow-y: visible;
+}
+
+.notification-wrapper.scrollable {
+  max-height: 85%;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.notification-wrapper.scrollable::-webkit-scrollbar {
+  width: 8px;
+}
+.notification-wrapper.scrollable::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}

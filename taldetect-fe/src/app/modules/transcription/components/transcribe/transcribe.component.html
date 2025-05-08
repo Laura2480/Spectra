@@ -1,0 +1,28 @@
+<div >
+    <h2 *ngIf="showProgress">{{ "stepper.transcription.title" | translate }}</h2>
+    <span *ngIf="showProgress" class="progress">{{progress | number:'1.2-2'}}%</span>
+    <mat-progress-bar *ngIf="showProgress" mode="determinate" [value]="progress"></mat-progress-bar>
+    <div *ngIf="transcription != null && transcription.length > 0" class="transcriptionPanel  mt-4">
+        <h4 *ngIf="showProgress">{{ "stepper.transcription.transcriptionResult" | translate }}</h4>
+        <div *ngFor="let el of transcription; let i = index" class="mb-3 d-flex"
+            [ngClass]="{'justify-content-end': el.role === 'paziente', 'justify-content-start': el.role !== 'paziente'}">
+            <div class="chat-bubble" [ngClass]="el.role === 'paziente' ? 'user-message' : 'doctor-message'">
+                <div class="d-flex align-items-center mb-1">
+                    <b *ngIf="el.role === 'paziente'">{{ el.speaker }} ({{"stepper.transcription.patient" | translate}}) <span (click)="cancelSegment(i)" title="Cancella" class="pointer align-bottom" style="font-size:18px">🗑</span></b>
+                    <b *ngIf="el.role === 'medico'">{{ el.speaker }} ({{"stepper.transcription.doctor" | translate}}) <span (click)="cancelSegment(i)" title="Cancella" class="pointer align-bottom" style="font-size:18px">🗑</span></b>
+                </div>
+                <div *ngIf="editIndex === i; else displayMode">
+                    <textarea [(ngModel)]="el.text" class="form-control mb-2" rows="2" cols="100"></textarea>
+                    <span class="pointer" (click)="cancelEdit(i)">❌</span>
+                    <span class="pointer" (click)="saveEdit(i)">✔️</span>
+                </div>
+                <ng-template #displayMode>
+                    <p (click)="selectText($event)" class="mb-0 pointer" (dblclick)="editTranscription(i)">{{ el.text }}
+                    </p>
+                    <span class="pointer" (click)="editTranscription(i)">✏️</span>
+                </ng-template>
+            </div>
+        </div>
+
+    </div>
+</div>

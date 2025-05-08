@@ -1,0 +1,26 @@
+<div>
+    <h2>{{ "stepper.diarize.title" | translate }}</h2>
+    <span class="progress">{{progress | number:'1.2-2' }}%</span>
+    <mat-progress-bar mode="determinate" [value]="progress"></mat-progress-bar>
+    <div class="mt-3" *ngIf="isDiarizationCompleted">
+        <h3>{{ "stepper.diarize.selectRole" | translate }}</h3>
+        <div class="diarizationBox" *ngFor="let speaker of speakers, index as i">
+            <h5>{{speaker.speaker}}</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <audio controls class="w-100">
+                        <source [src]="speaker.audioUrl" type="audio/mpeg">
+                        {{ "stepper.diarize.browserDontSupportAudio" | translate }}
+                    </audio>
+                </div>
+                <div class="col-md-6">
+                    <ng-select [clearable]="false" [searchable]="false" (change)="checkValidity()" [items]="roles" bindLabel="label" bindValue="value" placeholder="Seleziona ruolo"
+                        [(ngModel)]="selectedRoles[i]" class="w-100">
+                    </ng-select>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>

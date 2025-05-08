@@ -1,0 +1,37 @@
+<div class="container">
+    <app-chooice-modality (confirmChoice)="setSelectedMode($event)" *ngIf="selectedMode == null"></app-chooice-modality>
+    <app-job-analysis *ngIf="selectedMode == 'job'" (uploadFile)="uploadFileByJob($event)"
+        (removeFile)="jobRemoveFile($event)"></app-job-analysis>
+    <mat-horizontal-stepper *ngIf="selectedMode == 'real-time'" [selectedIndex]="activeStep" linear>
+        <mat-step *ngFor="let step of steps; let i = index" [label]="step.title" [editable]="stepsEditable[i]"
+            [completed]="stepsCompleted[i]">
+            <ng-template matStepContent>
+                <div class="d-flex align-items-center">
+                    <div class="bg-warning p-2 mb-2 rounded text-gray">
+                        <div class="d-flex align-items-center">
+                            <mat-icon class="info-icon" aria-hidden="false" aria-label="Info" fontIcon="info"></mat-icon>
+                            <div class="mx-1">Attenzione: In questa modalità, il refresh della pagina causa il fallimento
+                                dell'operazione.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <app-step-1 *ngIf="i === 0" (changedStep)="changedStep($event)"></app-step-1>
+                <app-step-2 *ngIf="i === 1" (uploadFile)="uploadFile($event)"
+                    (removeFile)="removeFile($event)"></app-step-2>
+                <app-step-3 *ngIf="i === 2" (diarizeAudio)="startDiarization()"></app-step-3>
+                <app-step-4 *ngIf="i === 3" (transcribeAudio)="transcribeAudio()"></app-step-4>
+                <app-step-5 *ngIf="i === 4" (loadedStep)="loadedStep()"></app-step-5>
+                <!--<ng-container *ngComponentOutlet="step.component" (changedStep)="changedStep($event)" #container></ng-container>-->
+                <p *ngIf="!isValidStep(i)" class="text-danger mt-3">{{ getErrorForStep(i) }}</p>
+                <div class="step-actions" [ngClass]="i === 0 ? 'justify-content-end' : ''">
+                    <button mat-button *ngIf="i > 0 && i < 4" (click)="goToPreviusStep(i)">{{ "stepper.buttons.previous.label" |
+                        translate }}</button>
+                    <button [disabled]="!isValidStep(i)" class="btn btn-primary btn-primary-color"
+                        *ngIf="i < steps.length - 1" (click)="goToNextStep(i)">{{ "stepper.buttons.next.label" |
+                        translate }}</button>
+                </div>
+            </ng-template>
+        </mat-step>
+    </mat-horizontal-stepper>
+</div>

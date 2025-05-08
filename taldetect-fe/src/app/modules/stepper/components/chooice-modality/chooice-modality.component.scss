@@ -1,0 +1,18 @@
+.clickable-card {
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.clickable-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.selected-card {
+    border: 2px solid #3f51b5;
+    background-color: #dadfff !important;
+}
+
+.chooice-container{
+    //height: calc(100vh - 80px);
+    overflow-x: hidden;
+}

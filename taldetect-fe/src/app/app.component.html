@@ -1,0 +1,8 @@
+<app-navbar>
+</app-navbar>
+<div class="base-container d-flex flex-column justify-content-center">
+    <app-loader></app-loader>
+    <router-outlet />
+</div>
+<app-footer (switchLanguage)="switchLanguage($event)">
+</app-footer>

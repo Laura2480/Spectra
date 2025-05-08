@@ -1,0 +1,12 @@
+<div *ngIf="isInProgress" class="overlay">
+    <h2>{{ "stepper.report.title" | translate }}</h2>
+    <div class="spinner-container d-flex flex-row gap-2 align-items-center mt-2">
+      <mat-progress-spinner
+        class="spinner"
+        mode="indeterminate"
+        [diameter]="50">
+      </mat-progress-spinner>
+      <div class="spinner-text">{{ "stepper.report.loader.description" | translate }}</div>
+    </div>
+  </div>
+  

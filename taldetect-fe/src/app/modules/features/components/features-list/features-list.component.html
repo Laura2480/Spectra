@@ -1,0 +1,112 @@
+<div class="homepage-container container-fluid mt-2 d-flex flex-column align-items-center p-3">
+    <h1>{{ "features.title" | translate }}</h1>
+    <div class="d-flex flex-row justify-content-between align-items-center w-100">
+        <div class="legend-container w-100">
+            <div class="legend-title">{{ 'features.LEGEND' | translate }}</div>
+
+            <div class="legend-scale">
+                <div class="legend-gradient"></div>
+                <div class="legend-labels">
+                    <span *ngFor="let mark of legendConfig.scaleMarks">{{ mark }}%</span>
+                </div>
+            </div>
+
+            <div class="legend-items d-flex flex-row justify-content-center align-items-center gap-2">
+                <div *ngFor="let range of legendConfig.ranges" class="legend-item gap-1">
+                    <div class="color-box" [style.background]="range.color"></div>
+                    <span>
+                        {{ range.label | translate }}
+                        ({{ range.start }}% - {{ range.end }}%)
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="selectRegistration w-100">
+            <ng-select
+              [items]="registrations"
+              bindLabel="filename"
+              bindValue="filename"
+              placeholder="Seleziona una registrazione"
+              [(ngModel)]="selectedReg"
+              (ngModelChange)="onRegistrationChange($event)">
+            </ng-select>
+          </div>
+          
+    </div>
+    <div class="row g-3">
+        <div *ngFor="let el of dataList; let i = index" class="col-12 col-md-6 col-lg-4">
+            <div *ngIf="el[0] != 'Speech_Emotions' " class="card h-100" style="background: #dadfff;">
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <h3 style="background: none !important; border-bottom: 0; min-height: 80px; padding-right: 0; margin-right: 5px;"
+                        class="card-header mt-3 text-center">{{ "features.list." +
+                        el[0] | translate }}</h3>
+                    <mat-icon
+                        [matTooltip]="'stepper.configuration.features.'+(el[0] | lowercase) + '.description' | translate"
+                        style="min-height: 45px;min-width: 50px;margin: 0 0 16px; cursor: pointer; color:#3f51b5"
+                        class="info-icon" aria-hidden="false" aria-label="Info" fontIcon="info"></mat-icon>
+                </div>
+                <div class="card-body row gap-3">
+                    <div *ngIf="el[1] > 0" class="gauge-section d-flex flex-column align-items-center col-12 col-md-6 col-lg-4">
+                        <span style="min-height: 40px;">{{"features.unhealthy" | translate}}</span>
+                        <span>{{el[1] | number:'1.2-2'}}</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="100" height="60">
+                            <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="#eee" stroke-width="15" />
+                            <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="url(#gaugeGradient)"
+                                stroke-width="15" stroke-dasharray="0.5 0" stroke-linecap="round" />
+                            <line x1="100" y1="100" x2="100" y2="40" stroke="#000000" stroke-width="3"
+                                [attr.transform]="'rotate(' + calculateRotation(el[1]) + ' 100 100)'" />
+                            <circle cx="100" cy="100" r="5" fill="#000000" />
+                            <defs>
+                                <linearGradient id="gaugeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" stop-color="#00C853" />
+                                    <stop offset="50%" stop-color="#FFD600" />
+                                    <stop offset="100%" stop-color="#D50000" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div *ngIf="el[2] > 0" class="gauge-section d-flex flex-column align-items-center col-12 col-md-6 col-lg-4">
+                        <span style="min-height: 40px;">{{"features.healthy" | translate}}</span>
+                        <span>{{el[2] | number:'1.2-2'}}</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="100" height="60">
+                            <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="#eee" stroke-width="15" />
+                            <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="url(#gaugeGradient)"
+                                stroke-width="15" stroke-dasharray="0.5 0" stroke-linecap="round" />
+                            <line x1="100" y1="100" x2="100" y2="40" stroke="#000000" stroke-width="3"
+                                [attr.transform]="'rotate(' + calculateRotation(el[2]) + ' 100 100)'" />
+                            <circle cx="100" cy="100" r="5" fill="#000000" />
+                            <defs>
+                                <linearGradient id="gaugeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" stop-color="#00C853" />
+                                    <stop offset="50%" stop-color="#FFD600" />
+                                    <stop offset="100%" stop-color="#D50000" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="el[0] === 'Speech_Emotions' " class="card h-100" style="background: #dadfff;">
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <h3 style="background: none !important; border-bottom: 0; min-height: 80px; padding-right: 0; margin-right: 5px;"
+                        class="card-header mt-3 text-center">{{ "features.list." +
+                        el[0] | translate }}</h3>
+                    <mat-icon
+                        [matTooltip]="'stepper.configuration.features.'+(el[0] | lowercase) + '.description' | translate"
+                        style="min-height: 45px;min-width: 50px;margin: 0 0 16px; cursor: pointer; color:#3f51b5"
+                        class="info-icon" aria-hidden="false" aria-label="Info" fontIcon="info"></mat-icon>
+                </div>
+                <div class="card-body d-flex flex-row gap-5 justify-content-center align-items-center gap-2">
+                    <div *ngIf="el[1] > 0" class="flex-column align-items-center justify-content-center d-flex">
+                        <span style="min-height: 40px;">{{"features.unhealthy" | translate}}</span>
+                        <div [innerHTML]="getMood(el[1])"></div>
+                    </div>
+                    <div *ngIf="el[2] > 0" class="flex-column align-items-center justify-content-center d-flex">
+                        <span style="min-height: 40px;">{{"features.healthy" | translate}}</span>
+                        <div [innerHTML]="getMood(el[2])"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

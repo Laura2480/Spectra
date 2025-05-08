@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "../node_modules/@ng-select/ng-select/themes/material.theme.css";
+@import '../node_modules/ngx-toastr/toastr.css';
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.btn-primary-color {
+    cursor: pointer;
+    background-color: #3f51b5;
+    border-color: #3f51b5;
+    color: #fff;
+}
+
+.btn-primary-color:hover, .btn-primary-color:active {
+    background-color: rgb(84 107 236) !important;
+    border-color: rgb(84 107 236) !important;
+    color: #fff;
+}
+
+.btn-primary-color.disabled, .btn-primary-color:disabled {
+    background-color: #3f51b5;
+    border-color: #1f0dfd;
+}

@@ -1,0 +1,95 @@
+.upload-container {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.upload-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.upload-hint {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+}
+
+.upload-dropzone {
+    border: 2px dashed #ccc;
+    border-radius: 6px;
+    text-align: center;
+    padding: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-dropzone:hover {
+    background-color: #fafafa;
+}
+
+.upload-icon {
+    margin-bottom: 16px;
+}
+
+.upload-instructions {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.upload-details {
+    color: #777;
+    font-size: 0.85rem;
+    margin-bottom: 16px;
+}
+
+.upload-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.upload-filelist {
+    margin-top: 16px;
+}
+
+::ng-deep .estimated-time-bar .mdc-linear-progress__bar-inner,
+::ng-deep .accuracy-bar .mdc-linear-progress__bar-inner {
+    border-color: var(--bar-color) !important;
+}
+
+::ng-deep .mdc-linear-progress__bar-inner,
+::ng-deep .mdc-linear-progress__bar,
+::ng-deep .mat-mdc-progress-bar,
+::ng-deep .mdc-linear-progress__buffer {
+    height: 20px !important;
+}
+
+::ng-deep .mdc-linear-progress__bar-inner {
+    border-top-width: 20px !important
+}
+
+.progress {
+    margin-bottom: -17px;
+    z-index: 10;
+    position: relative;
+    background: transparent;
+    color: white;
+    margin-left: 3px;
+}
+
+::ng-deep .job-analysis-container {
+    overflow-x: unset !important;
+}
+
+::ng-deep .mat-horizontal-content-container{
+    overflow: unset !important;
+}

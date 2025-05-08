@@ -1,0 +1,47 @@
+<mat-card *ngIf="transcriptionData != null" class="transcription-card">
+    <mat-card-header class="w-100">
+        <div class="w-100 d-flex justify-content-between">
+            <div class="detail-item">
+                <mat-icon>description</mat-icon>
+                <mat-card-title>{{ transcriptionData.filename }}</mat-card-title>
+            </div>
+        </div>
+    </mat-card-header>
+    <mat-card-content>
+        <div class="detail-item">
+            <mat-icon>key</mat-icon>
+            <span><strong>{{ "transcription.detail.uploadId" | translate }}</strong> {{ transcriptionData.upload_id
+                }}</span>
+        </div>
+        <div class="detail-item">
+            <mat-icon>download</mat-icon>
+            <a class="detail-item pointer" (click)="downloadtranscription('verbose')"><span><strong>{{
+                        "transcription.detail.downloadVerbose" | translate }}</strong> {{ transcriptionData.created_at
+                    }}</span></a>
+        </div>
+    </mat-card-content>
+    <mat-card-actions class="justify-content-end">
+        <button type="button" class="btn btn-sm btn-outline-secondary" (click)="goBack()">{{ "buttons.back.label" |
+            translate }}</button>
+    </mat-card-actions>
+</mat-card>
+<div class="transcription-card d-flex flex-column" style="background: #e2e6ff; border-radius: 10px; max-width: 600px;">
+    <div class="d-flex justify-content-between align-items-center">
+        <h3><b>{{ "transcription.detail.title" | translate }}</b></h3>
+        <div class="detail-item">
+            <img class="pointer" width="40" src="assets/img/download-doc.svg" (click)="downloadtranscription('txt')"
+                title="Scarica documento di testo" alt="download doc" />
+            <img class="pointer" width="40" src="assets/img/download-json.svg" (click)="downloadtranscription('json')"
+                title="Scarica JSON" alt="download json" />
+            <img class="pointer" width="40" src="assets/img/download-pdf.svg" (click)="downloadtranscription('pdf')"
+                title="Scarica PDF" alt="download pdf" />
+        </div>
+    </div>
+    <div style="max-height: 350px;overflow-y: scroll;border: 1px solid #a4a6b5;border-radius: 3px;">
+        <app-transcribe></app-transcribe>
+    </div>
+    <div class="d-flex justify-content-end mt-2">
+        <button [disabled]="transcribe == null || !transcribe.isEdited" type="button"
+            class="btn btn-sm btn-primary btn-primary-color" (click)="saveChanges()">{{ "buttons.save_changes.label" | translate }}</button>
+    </div>
+</div>

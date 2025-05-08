@@ -1,0 +1,486 @@
+{
+  "homepage": {
+    "sections": {
+      "excerpt-features": {
+        "title": "Principali Caratteristiche Estratte"
+      },
+      "analysis-result": {
+        "title": "Risultato Analisi",
+        "unhealthy": "Disturbo Riscontrato",
+        "healthy": "Controllo Sano"
+      },
+      "last-reports": {
+        "title": "Ultimi Report",
+        "audio_name": "Nome Audio",
+        "actions": "Azioni",
+        "detail": "Dettaglio"
+      },
+      "last-transcriptions": {
+        "title": "Ultime Trascrizioni",
+        "audio_name": "Nome Audio",
+        "actions": "Azioni",
+        "detail": "Dettaglio"
+      },
+      "last-execute-job": {
+        "title": "Ultimi Job Eseguiti",
+        "audio_name": "Nome Audio",
+        "status": "Stato",
+        "actions": "Azioni",
+        "detail": "Dettaglio"
+      },
+      "notification": {
+        "title": "Task da validare",
+        "button": "Visualizza"
+      }
+    }
+  },
+  "features": {
+    "title": "Caratteristiche Estratte",
+    "unhealthy": "Disturbo Riscontrato",
+    "healthy": "Controllo Sano",
+    "LEGEND": "Legenda",
+    "HEALTHY_RANGE": "Basso",
+    "WARNING_RANGE": "Medio",
+    "CRITICAL_RANGE": "Alto",
+    "list": {
+      "Predictability_Entropy": "Prevedibilità (Entropia del parlato)",
+      "Fluency_Disfluency": "Disfluenze (Um, Eh, Ripetizioni)",
+      "Turn_Taking_Coordination": "Coordinazione del turn-taking (dinamica conversazionale)",
+      "Energy_Modulation": "Modulazione dell’energia vocale",
+      "Turn_Response_Time": "Tempo di risposta",
+      "HNR": "Analisi delle armoniche (HNR - Harmonics-to-Noise Ratio)",
+      "Latency_Intra_Turn": "Tempo di latenza intra-turno",
+      "Syntactic_Complexity": "Complessità sintattica",
+      "Functional_Word_Frequency": "Frequenza delle parole funzionali",
+      "Stress_Voice": "Intonazione e stress vocale",
+      "Speech_Rate": "Velocità del parlato (Speech Rate)",
+      "Sentence_Length_Avg": "Lunghezza media delle frasi",
+      "Prosody_Variation": "Variazione della prosodia",
+      "RMS_Energy": "Sovrapposizione del parlato",
+      "Pause_Duration": "Pausa intra-parlato",
+      "Total_Speech_Duration": "Durata degli interventi",
+      "Speech_Frequency": "Frequenza degli interventi",
+      "Speech_Emotions": "Emozioni nel parlato",
+      "Articulation_Pronunciation": "Articolazione e pronuncia",
+      "Echolalia_Repetition": "Ripetizione e ecolalia"
+    }
+  },
+  "job": {
+    "detail": {
+      "uploadId": "ID file caricato: ",
+      "step": "Step: ",
+      "status": "Stato: ",
+      "progress": "Progresso: ",
+      "created_at": "Creato il: ",
+      "updated_at": "Aggiornato il: ",
+      "completed_at": "Completato il: ",
+      "step_completed": "Completato",
+      "status_completed": "Completato",
+      "status_in_progress": "In corso",
+      "status_failed": "Fallito",
+      "step_start": "Avviato",
+      "step_transcription": "Trascrizione",
+      "step_diarization": "Diarizzazione",
+      "step_convert_audio": "Conversione Audio",
+      "step_extract_features": "Estrazione Caratteristiche",
+      "step_transcription_verbose": "Trascrizione Verbose"
+    }
+  },
+  "transcription": {
+    "detail": {
+      "title": "Trascrizione",
+      "uploadId": "ID file caricato: ",
+      "downloadVerbose": "Scarica la trascrizione dettagliata dell'audio"
+    }
+  },
+  "navbar": {
+    "interview-analysis-label": "Analisi Intervista",
+    "patients": "Pazienti",
+    "label-hello": "Ciao",
+    "menu-name": "Nome",
+    "menu-surname": "Cognome",
+    "menu-email": "e-mail",
+    "menu-logout": "Logout"
+  },
+  "footer": {
+    "copyright": {
+      "title": "TALD Detect",
+      "caption": "© 2025 Università degli Studi di Salerno (UNISA). Tutti i diritti riservati."
+    },
+    "language": {
+      "title": "Lingua"
+    },
+    "follow": {
+      "title": "Seguici su"
+    }
+  },
+  "paginator": {
+    "itemsPerPageLabel": "Elementi per pagina",
+    "nextPageLabel": "Pagina successiva",
+    "previousPageLabel": "Pagina precedente",
+    "firstPageLabel": "Prima pagina",
+    "lastPageLabel": "Ultima pagina",
+    "rangeLabel": "{{start}} - {{end}} di {{length}}"
+  },
+  "stepper": {
+    "chooice_modality": {
+      "real_time": {
+        "title": "Analisi in Tempo Reale",
+        "description": "Configura i modelli, le caratteristiche e i parametri da estrarre. Carica il tuo audio e segui l'avanzamento di ogni step in tempo reale (Necessaria interazione)."
+      },
+      "job": {
+        "title": "Analisi tramite Job",
+        "description": "L'analisi viene effettuata in background, riceverai una notifica quando sarà completata (Nessuna interazione richiesta)."
+      }
+    },
+    "configuration": {
+      "title": "Configurazione",
+      "diarizationModel": "Modello Diarizzazione",
+      "transcriptionModel": "Modello Trascrizione",
+      "anlysisModel": "Modello Analisi",
+      "features": {
+        "title": "Seleziona le caratterische da estrarre",
+        "speech_duration": {
+          "name": "Durata degli interventi",
+          "description": "Calcola quanto tempo ogni speaker parla in totale. \n Esempio: { \"speaker_1\": 35.2 sec, \"speaker_2\": 20.1 sec }. \n Misura il bilanciamento della conversazione."
+        },
+        "speech_frequency": {
+          "name": "Frequenza degli interventi",
+          "description": "Conteggio del numero di turni di parola per ogni speaker. \n Esempio: { \"speaker_1\": 12 turni, \"speaker_2\": 8 turni }. \n Chi prende più spesso la parola."
+        },
+        "pause_between_turns": {
+          "name": "Pausa tra interventi",
+          "description": "Calcola la durata media delle pause tra un intervento e l\\'altro. \n Esempio: { \"pausa_media\": 1.2 sec }. \n Misura la velocità della conversazione."
+        },
+        "speech_overlap": {
+          "name": "Sovrapposizione del parlato",
+          "description": "Calcola la percentuale di sovrapposizione del parlato tra i due speaker. \n Esempio: { \"overlap_percentage\": 5.3% }. \n Misura il grado di interruzione tra i due speaker."
+        },
+        "speech_emotions": {
+          "name": "Emozioni nel parlato",
+          "description": "Riconosce le emozioni nel parlato. \n Esempio: { \"speaker_1\": \"felice\", \"speaker_2\": \"triste\" }. \n Misura il tono emotivo della conversazione."
+        },
+        "prosody_variation": {
+          "name": "Variazione della prosodia",
+          "description": "Riconosce le variazioni della prosodia nel parlato. Le persone con ASD tendono ad avere un parlato monotono o con variazioni atipiche di intonazione. Calcola il range della frequenza fondamentale (F0) e la variazione nel tempo. Identifica un tono di voce piatto o eccessivamente variabile."
+        },
+        "response_time": {
+          "name": "Tempo di risposta",
+          "description": "Calcola il tempo medio tra una domanda del medico e la risposta del paziente. \n Esempio: { \"speaker_1 (paziente)\": 2.1 sec }. \n Misura la velocità di risposta. Persone con ASD spesso hanno latenze più lunghe prima di rispondere."
+        },
+        "avg_sentence_length": {
+          "name": "Lunghezza media delle frasi",
+          "description": "Calcola la lunghezza media delle frasi di ogni speaker. \n Esempio: { \"speaker_1\": 5.2 parole, \"speaker_2\": 4.8 parole }. \n Misura la complessità del linguaggio. Persone con ASD tendono a usare frasi molto brevi o molto lunghe."
+        },
+        "echolalia_repetition": {
+          "name": "Ripetizione e ecolalia",
+          "description": "Riconosce la ripetizione di parole o frasi. \n Esempio: { \"speaker_1\": \"30%\", \"speaker_2\": \"1%\" }. \n Misura la presenza di ecolalia. Persone con ASD tendono a ripetere le parole o frasi appena ascoltate."
+        },
+        "syntactic_complexity": {
+          "name": "Complessità sintattica",
+          "description": "Calcola la complessità sintattica delle frasi di ogni speaker. \n Esempio: { \"speaker_1\": \"complesso\", \"speaker_2\": \"semplice\" }. \n Misura la complessità del linguaggio. Persone con ASD tendono a usare frasi poco strutturate o complesse."
+        },
+        "speech_rate": {
+          "name": "Velocità del parlato (Speech Rate)",
+          "description": "Calcola il numero medio di parole pronunciate al secondo da ogni speaker. \n Esempio: { \"speaker_1\": 120 wpm, \"speaker_2\": 100 wpm }. \n Misura la velocità del parlato. Persone con ASD tendono a parlare più velocemente o più lentamente."
+        },
+        "articulation_pronunciation": {
+          "name": "Articolazione e pronuncia",
+          "description": "Riconosce la presenza di errori di pronuncia o di articolazione. \n Esempio: { \"speaker_1\": \"0 errori\", \"speaker_2\": \"5 errori\" }. \n Misura la chiarezza del parlato. L’ASD è associato a variazioni anomale nei formanti che rendono la voce meno chiara."
+        },
+        "pitch_stress": {
+          "name": "Intonazione e stress vocale",
+          "description": "Riconosce la presenza di intonazioni anomale o di stress vocale. \n Esempio: { \"speaker_1\": \"intonazione normale\", \"speaker_2\": \"intonazione piatta\" }. \n Misura la variazione tonale. Persone con ASD tendono a usare un tono di voce piatto o eccessivamente variabile."
+        },
+        "disfluencies": {
+          "name": "Disfluenze (Um, Eh, Ripetizioni)",
+          "description": "Riconosce la presenza di disfluenze nel parlato. \n Esempio: { \"speaker_1\": \"5 disfluenze\", \"speaker_2\": \"10 disfluenze\" }. \n Misura la fluidità del parlato. Persone con ASD tendono a usare disfluenze come \"eh\", \"um\", \"allora\" o a ripetere le parole."
+        },
+        "turn_taking_coordination": {
+          "name": "Coordinazione del turn-taking (dinamica conversazionale)",
+          "description": "Calcola la coordinazione del turn-taking tra i due speaker. \n Esempio: { \"speaker_1\": \"coordinato\", \"speaker_2\": \"non coordinato\" }. \n Misura la fluidità della conversazione. Persone con ASD tendono a interrompere o a non rispettare i turni di parola."
+        },
+        "vocal_energy_modulation": {
+          "name": "Modulazione dell’energia vocale",
+          "description": "Riconosce la presenza di variazioni nell’energia vocale. \n Esempio: { \"speaker_1\": \"modulato\", \"speaker_2\": \"non modulato\" }. \n Misura la variazione tonale. Persone con ASD tendono a usare un tono di voce piatto o eccessivamente variabile."
+        },
+        "harmonics_to_noise_ratio": {
+          "name": "Analisi delle armoniche (HNR - Harmonics-to-Noise Ratio)",
+          "description": "Calcola il rapporto tra le armoniche e il rumore nel segnale vocale. \n Esempio: { \"speaker_1\": \"HNR alto\", \"speaker_2\": \"HNR basso\" }. \n Misura la chiarezza del parlato. Persone con ASD tendono a produrre suoni vocali atipici o a usare un tono di voce monotono."
+        },
+        "intra_turn_latency": {
+          "name": "Tempo di latenza intra-turno",
+          "description": "Calcola il tempo medio di latenza all'interno di un turno di parola. \n Esempio: { \"latenza_media\": 0.8 sec }. \n Tempo medio che passa tra la fine di una parola e l'inizio della parola successiva. Utile per misurare la fluidità del parlato."
+        },
+        "functional_word_frequency": {
+          "name": "Frequenza delle parole funzionali",
+          "description": "Calcola la frequenza delle parole funzionali (articoli, preposizioni, congiunzioni) usate da ogni speaker. \n Esempio: { \"speaker_1\": \"alta\", \"speaker_2\": \"bassa\" }. \n Percentuale di articoli, preposizioni, congiunzioni rispetto al totale delle parole pronunciate. Può indicare se il linguaggio è più telegrafico o ridondante rispetto alla norma."
+        },
+        "speech_entropy": {
+          "name": "Misura della prevedibilità (Entropia del parlato)",
+          "description": "Calcola l'entropia del parlato di ogni speaker. \n Esempio: { \"speaker_1\": \"alta\", \"speaker_2\": \"bassa\" }. \n Misura la prevedibilità del parlato. Persone con ASD tendono a usare frasi poco strutturate o complesse."
+        },
+        "pause_duration": {
+          "name": "Durata della pausa",
+          "description": "Durata delle pause tra le parole o le frasi."
+        },
+        "rms_energy": {
+          "name": "Sovrapposizione del parlato",
+          "description": "Calcola la percentuale di sovrapposizione del parlato tra i due speaker. \n Esempio: { \"overlap_percentage\": 5.3% }. \n Misura il grado di interruzione tra i due speaker."
+        },
+        "hnr": {
+          "name": "Analisi delle armoniche (HNR - Harmonics-to-Noise Ratio)",
+          "description": "Calcola il rapporto tra le armoniche e il rumore nel segnale vocale. \n Esempio: { \"speaker_1\": \"HNR alto\", \"speaker_2\": \"HNR basso\" }. \n Misura la chiarezza del parlato. Persone con ASD tendono a produrre suoni vocali atipici o a usare un tono di voce monotono."
+        },
+        "stress_voice": {
+          "name": "Intonazione e stress vocale",
+          "description": "Riconosce la presenza di intonazioni anomale o di stress vocale. \n Esempio: { \"speaker_1\": \"intonazione normale\", \"speaker_2\": \"intonazione piatta\" }. \n Misura la variazione tonale. Persone con ASD tendono a usare un tono di voce piatto o eccessivamente variabile."
+        },
+        "energy_modulation": {
+          "name": "Modulazione dell’energia vocale",
+          "description": "Riconosce la presenza di variazioni nell’energia vocale. \n Esempio: { \"speaker_1\": \"modulato\", \"speaker_2\": \"non modulato\" }. \n Misura la variazione tonale. Persone con ASD tendono a usare un tono di voce piatto o eccessivamente variabile."
+        },
+        "latency_intra_turn": {
+          "name": "Tempo di latenza intra-turno",
+          "description": "Calcola il tempo medio di latenza all'interno di un turno di parola. \n Esempio: { \"latenza_media\": 0.8 sec }. \n Tempo medio che passa tra la fine di una parola e l'inizio della parola successiva. Utile per misurare la fluidità del parlato."
+        },
+        "turn_response_time": {
+          "name": "Tempo di risposta",
+          "description": "Calcola il tempo medio tra una domanda del medico e la risposta del paziente. \n Esempio: { \"speaker_1 (paziente)\": 2.1 sec }. \n Misura la velocità di risposta. Persone con ASD spesso hanno latenze più lunghe prima di rispondere."
+        },
+        "fluency_disfluency": {
+          "name": "Disfluenze (Um, Eh, Ripetizioni)",
+          "description": "Riconosce la presenza di disfluenze nel parlato. \n Esempio: { \"speaker_1\": \"5 disfluenze\", \"speaker_2\": \"10 disfluenze\" }. \n Misura la fluidità del parlato. Persone con ASD tendono a usare disfluenze come \"eh\", \"um\", \"allora\" o a ripetere le parole."
+        },
+        "sentence_length_avg": {
+          "name": "Lunghezza media delle frasi",
+          "description": "Calcola la lunghezza media delle frasi di ogni speaker. \n Esempio: { \"speaker_1\": 5.2 parole, \"speaker_2\": 4.8 parole }. \n Misura la complessità del linguaggio. Persone con ASD tendono a usare frasi molto brevi o molto lunghe."
+        },
+        "predictability_entropy": {
+          "name": "Misura della prevedibilità (Entropia del parlato)",
+          "description": "Calcola l'entropia del parlato di ogni speaker. \n Esempio: { \"speaker_1\": \"alta\", \"speaker_2\": \"bassa\" }. \n Misura la prevedibilità del parlato. Persone con ASD tendono a usare frasi poco strutturate o complesse."
+        },
+        "total_speech_duration": {
+          "name": "Durata degli interventi",
+          "description": "Calcola quanto tempo ogni speaker parla in totale. \n Esempio: { \"speaker_1\": 35.2 sec, \"speaker_2\": 20.1 sec }. \n Misura il bilanciamento della conversazione."
+        }
+      },
+      "parameters": {
+        "title": "Seleziona i parametri da includere nel Report",
+        "total_tald": {
+          "name": "TALD totale",
+          "description": "Misura totale del disturbo del linguaggio."
+        },
+        "circumstantiality": {
+          "name": "Circostanzialità",
+          "description": "Discorso eccessivamente dettagliato e prolisso, con difficoltà a giungere al punto."
+        },
+        "derailment": {
+          "name": "Deragliamento",
+          "description": "Passaggio improvviso da un argomento all'altro senza connessione logica."
+        },
+        "tangentiality": {
+          "name": "Tangenzialità",
+          "description": "Risposte non direttamente collegate alla domanda posta."
+        },
+        "thought_disassociation": {
+          "name": "Dissociazione del pensiero",
+          "description": "Perdita di coerenza nel discorso, frasi sconnesse tra loro."
+        },
+        "crosstalk": {
+          "name": "Diafonia",
+          "description": "Sovrapposizione di voci o discorsi tra più persone."
+        },
+        "perseveration": {
+          "name": "Perseveranza",
+          "description": "Ripetizione insistente di parole o concetti."
+        },
+        "verbigeration": {
+          "name": "Verbigerazione",
+          "description": "Ripetizione continua di parole o frasi prive di significato contestuale."
+        },
+        "thought_break": {
+          "name": "Rottura del pensiero",
+          "description": "Interruzione improvvisa e senza motivo apparente del flusso di pensiero."
+        },
+        "pressure_speech": {
+          "name": "Discorso sotto pressione",
+          "description": "Flusso rapido e incontrollato di parole."
+        },
+        "logorrhea": {
+          "name": "Logorrea",
+          "description": "Eccessiva verbosità e incapacità di fermarsi nel discorso."
+        },
+        "mannered_speech": {
+          "name": "Discorso manieristico",
+          "description": "Uso di parole o espressioni in modo artificioso o inusuale."
+        },
+        "semantic_paraphasia": {
+          "name": "Parafasia semantica",
+          "description": "Sostituzione di una parola con un'altra con significato simile o correlato."
+        },
+        "phonemic_paraphasia": {
+          "name": "Parafasia fonemica",
+          "description": "Errori fonetici nelle parole pronunciate."
+        },
+        "neologisms": {
+          "name": "Neologismi",
+          "description": "Creazione di parole nuove e inesistenti nel linguaggio comune."
+        },
+        "clanging": {
+          "name": "Clandore-squillio",
+          "description": "Uso di toni di voce inappropriati o eccessivamente accentuati."
+        },
+        "echolalia": {
+          "name": "Ecolalia",
+          "description": "Ripetizione automatica di parole o frasi pronunciate da altri."
+        },
+        "speech_content_poverty": {
+          "name": "Povertà del contenuto del discorso",
+          "description": "Discorso vago e privo di informazioni significative."
+        },
+        "restricted_thought": {
+          "name": "Pensiero ristretto",
+          "description": "Fissazione su un numero limitato di argomenti o idee."
+        },
+        "slowed_thought": {
+          "name": "Pensiero rallentato",
+          "description": "Lentezza nella formulazione e nell'esposizione dei pensieri."
+        },
+        "speech_poverty": {
+          "name": "Povertà di parola",
+          "description": "Riduzione significativa della quantità di parole usate."
+        },
+        "concretism": {
+          "name": "Concretismo",
+          "description": "Difficoltà nel comprendere concetti astratti o metaforici."
+        },
+        "blocks": {
+          "name": "Blocco/i",
+          "description": "Interruzione improvvisa del flusso del pensiero senza ripresa immediata."
+        },
+        "rumination": {
+          "name": "Ruminazione",
+          "description": "Ripetizione costante di pensieri senza una conclusione."
+        },
+        "thought_poverty": {
+          "name": "Povertà di pensiero",
+          "description": "Difficoltà nel generare nuovi pensieri o idee."
+        },
+        "thought_inhibition": {
+          "name": "Pensiero inibito",
+          "description": "Sensazione di blocco mentale con difficoltà a esprimersi."
+        },
+        "receptive_language_dysfunction": {
+          "name": "Disfunzione del linguaggio ricettivo",
+          "description": "Difficoltà nella comprensione del linguaggio parlato o scritto."
+        },
+        "expressive_language_dysfunction": {
+          "name": "Disfunzione del linguaggio espressivo",
+          "description": "Difficoltà nell'esprimere i propri pensieri in modo chiaro."
+        },
+        "thought_initiative_intention_dysfunction": {
+          "name": "Disf. iniziativa pensiero e intenzione",
+          "description": "Difficoltà nell'avviare o mantenere un pensiero strutturato."
+        },
+        "thought_interference": {
+          "name": "Interferenza di pensiero",
+          "description": "Pensieri intrusivi che disturbano il flusso del discorso."
+        },
+        "thought_pressure": {
+          "name": "Pressione/impeto di pensieri",
+          "description": "Flusso continuo e incontrollato di pensieri."
+        }
+      },
+      "selectAll": "Seleziona Tutto"
+    },
+    "upload": {
+      "title": "Caricamento File",
+      "interview_file": "Caricamento File Intervista",
+      "description": "Trascina e rilascia il file qui o seleziona il file da caricare",
+      "informative": "Puoi caricare solo file in formato: mp3, wav, aiff, flac, ogg, aac, m4a.\n \n I file non può essere più grande di 1 GB. Puoi caricare 1 solo file.",
+      "estimate_time": "Tempo stimato: <",
+      "estimate_accuracy": "Accuratezza stimata: "
+    },
+    "diarize": {
+      "title": "Diarizzazione",
+      "selectRole": "Seleziona il ruolo di ogni speaker",
+      "browserDontSupportAudio": "Il tuo browser non supporta l'audio.",
+      "patient": "Paziente",
+      "doctor": "Medico"
+    },
+    "transcription": {
+      "title": "Trascrizione",
+      "transcriptionResult": "Risultato Trascrizione",
+      "doctor": "Medico",
+      "patient": "Paziente"
+    },
+    "report": {
+      "title": "Report",
+      "loader": {
+        "description": "Generazione report in corso, al termine sarai reindirizzato al dettaglio..."
+      }
+    },
+    "buttons": {
+      "next": {
+        "label": "Avanti"
+      },
+      "confirm": {
+        "label": "Conferma"
+      },
+      "previous": {
+        "label": "Indietro"
+      },
+      "select_file": {
+        "label": "Seleziona File"
+      },
+      "start_job": {
+        "label": "Avvia Job"
+      }
+    }
+  },
+  "login": {
+    "title": "Login",
+    "email": "e-mail",
+    "password": "password",
+    "submit": "Accesso",
+    "email-error": "eMail inserita non valida",
+    "reset": "Reset password",
+    "message": "Benvenuto"
+  },
+  "buttons": {
+    "back": {
+      "label": "Indietro"
+    },
+    "save_changes": {
+      "label": "Salva Modifiche"
+    }
+  },
+  "patient": {
+    "sections": {
+      "list": {
+        "title": "Elenco Pazienti"
+      },
+      "add": {
+        "title": "Aggiungi Paziente"
+      },
+      "edit": {
+        "title": "Modifica Paziente"
+      }
+    },
+    "fields": {
+      "nome": "Nome",
+      "cognome": "Cognome",
+      "email": "email",
+      "age": "eta",
+      "azioni": "Azioni"
+    },
+    "buttons": {
+      "modifica": "Modifica",
+      "elimina": "Elimina",
+      "salva": "Salva",
+      "aggiungi": "Aggiungi",
+      "reset": "Reset"
+    }
+  }
+}

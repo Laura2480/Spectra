@@ -1,0 +1,9 @@
+<div class="job-analysis-container container mt-4 d-flex justify-content-center flex-column">
+    <div class="row">
+        <app-upload (uploadFile)="sendUploadFile($event)" (removeFile)="sendRemoveFile($event)"></app-upload>
+    </div>
+    <div *ngIf="uploadComponent != undefined" class="justify-content-end d-flex mt-2">
+        <button [disabled]="!isValidUpload" class="btn btn-primary btn-primary-color">{{
+            "stepper.buttons.start_job.label" | translate }}</button>
+    </div>
+</div>

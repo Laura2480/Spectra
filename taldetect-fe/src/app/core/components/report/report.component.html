@@ -1,0 +1,74 @@
+<div class="container" *ngIf="isLoading">
+  <div class="report-card">
+    <h2>Report Analisi</h2>
+  </div>
+
+  <div class="patient-recap">
+    <h3><b>Dettagli Paziente</b></h3>
+    <p><strong>Nome:</strong> {{ patient.name }}</p>
+    <p><strong>Cognome:</strong> {{ patient.surname }}</p>
+    <p><strong>Età:</strong> {{ patient.age }}</p>
+    <p><strong>Registrazione:</strong> {{ patient.email }}</p>
+  </div>
+
+  <div class="scrollable-content">
+
+    <div *ngIf="showScore()" class="analysis-item">
+      <div class="result-container">
+        <span><strong>Punteggio assegnato: </strong></span>
+        <span><strong>{{ reportUser.score }}</strong></span>
+      </div>
+
+    </div>
+
+    <div *ngFor="let item of reportUser.report; let i = index" class="analysis-item">
+
+      <div class="label-item"><strong>{{ item.tipologia }}</strong></div>
+
+      <div class="progress-container">
+        <span class="min-label">Min: <b>0</b></span>
+        <mat-progress-bar mode="determinate" [value]="item.punteggio * 25" class="progress-bar"
+          aria-label="Punteggio analisi"></mat-progress-bar>
+        <span class="max-label">Max: <b>4</b></span>
+      </div>
+
+      <div class="result-container">
+        <span><strong>Punteggio assegnato </strong></span>
+        <input style="margin-left:5px;" *ngIf="editingIndex === i" type="number" [(ngModel)]="item.punteggio" min="0"
+          max="4" />
+        <span *ngIf="editingIndex !== i">{{ item?.punteggio }}</span>
+      </div>
+
+      <div class="result-container">
+        <span><strong>Giustificazione</strong></span>
+        <textarea *ngIf="editingIndex === i" [(ngModel)]="item.giustificazione" class="edit-textarea"
+          placeholder="Inserisci la giustificazione..."></textarea>
+        <span *ngIf="editingIndex !== i" class="static-text">{{ item?.giustificazione }}</span>
+      </div>
+
+      <div *ngIf="item?.pattern_rilevati?.length > 0" class="pattern-container">
+        <strong>Pattern Rilevati</strong>
+        <ul>
+          <li *ngFor="let pattern of item?.pattern_rilevati">{{ pattern }}</li>
+        </ul>
+      </div>
+
+      <div class="button-container">
+        <button (click)="toggleEdit(i)" *ngIf="isDisabledEdit">{{ editingIndex === i ? 'Salva' : 'Modifica' }}</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="button-container-global" *ngIf="reportUser.status === 'TO_EVALUATE'">
+    <button *ngIf="!isEditing && !isClosedEvaluation" (click)="acceptEvaluation()">Accetta Valutazione</button>
+    <button *ngIf="!isDisabledEdit && !isClosedEvaluation && !isEditing" (click)="editAction()">Modifica
+      Valutazione</button>
+    <button *ngIf="isEditing" (click)="saveEditEvaluation()">Salva Valutazione</button>
+  </div>
+
+  <div class="button-container-global" *ngIf="reportUser.status === 'COMPLETED'">
+    <button *ngIf="!isClosedEvaluation" (click)="getReportScoreById()">Scarica Punteggio Report</button>
+    <button *ngIf="!isClosedEvaluation" (click)="getReportCompletedById()">Scarica Report Dettagliato</button>
+  </div>
+</div>

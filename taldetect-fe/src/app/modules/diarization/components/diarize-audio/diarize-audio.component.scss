@@ -1,0 +1,27 @@
+.progress {
+    margin-bottom: -17px;
+    z-index: 10;
+    position: relative;
+    background: transparent;
+    color: white;
+    margin-left: 3px;
+}
+
+.diarizationBox {
+    background: #e2e6ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+    background-color: #e2e6ff;
+    color: #e2e6ff;
+
+}
+
+audio::-webkit-media-controls-enclosure {
+    border-radius: 0;
+    background-color: rgb(138, 194, 194);
+}

@@ -1,0 +1,487 @@
+{
+  "homepage": {
+    "sections": {
+      "excerpt-features": {
+        "title": "Main Features Extracted"
+      },
+      "analysis-result": {
+        "title": "Analysis Result",
+        "unhealthy": "Disorder Found",
+        "healthy": "Healthy Control"
+      },
+      "last-reports": {
+        "title": "Last Reports",
+        "audio_name": "Audio Name",
+        "actions": "Actions",
+        "detail": "Detail"
+      },
+      "last-transcriptions": {
+        "title": "Last Transcriptions",
+        "audio_name": "Audio Name",
+        "status": "Status",
+        "actions": "Actions",
+        "detail": "Detail"
+      },
+      "last-execute-job": {
+        "title": "Last Execute Job",
+        "audio_name": "Audio Name",
+        "status": "Status",
+        "actions": "Actions",
+        "detail": "Detail"
+      },
+      "notification": {
+        "title": "Task to be completed",
+        "button": "Show"
+      }
+    }
+  },
+  "features": {
+    "title": "Features Extracted",
+    "unhealthy": "Disorder Found",
+    "healthy": "Healthy Control",
+    "LEGEND": "Legend",
+    "HEALTHY_RANGE": "Low",
+    "WARNING_RANGE": "Medium",
+    "CRITICAL_RANGE": "High",
+    "list": {
+      "Predictability_Entropy": "Predictability (Speech Entropy)",
+      "Fluency_Disfluency": "Disfluencies (Um, Eh, Repetitions)",
+      "Turn_Taking_Coordination": "Turn-Taking Coordination (Conversational Dynamics)",
+      "Energy_Modulation": "Vocal Energy Modulation",
+      "Turn_Response_Time": "Response Time",
+      "HNR": "Harmonics-to-Noise Ratio (HNR) Analysis",
+      "Latency_Intra_Turn": "Intra-Turn Latency",
+      "Syntactic_Complexity": "Syntactic Complexity",
+      "Functional_Word_Frequency": "Functional Word Frequency",
+      "Stress_Voice": "Intonation and Vocal Stress",
+      "Speech_Rate": "Speech Rate",
+      "Sentence_Length_Avg": "Average Sentence Length",
+      "Prosody_Variation": "Prosody Variation",
+      "RMS_Energy": "Speech Overlap",
+      "Pause_Duration": "Intra-Speech Pause",
+      "Total_Speech_Duration": "Speech Duration",
+      "Speech_Frequency": "Speech Frequency",
+      "Speech_Emotions": "Speech Emotions",
+      "Articulation_Pronunciation": "Articulation and Pronunciation",
+      "Echolalia_Repetition": "Echolalia Repetition"
+    }
+  },
+  "job": {
+    "detail": {
+      "uploadId": "Upload ID: ",
+      "step": "Step: ",
+      "status": "Status: ",
+      "progress": "Progress: ",
+      "created_at": "Created at: ",
+      "updated_at": "Updated at: ",
+      "completed_at": "Completed at: ",
+      "step_completed": "Completed",
+      "status_completed": "Completed",
+      "status_in_progress": "In Progress",
+      "status_failed": "Failed",
+      "step_start": "Started",
+      "step_transcription": "Transcription",
+      "step_diarization": "Diarization",
+      "step_convert_audio": "Convert Audio",
+      "step_extract_features": "Extract Features",
+      "step_transcription_verbose": "Verbose Transcription"
+    }
+  },
+  "transcription": {
+    "detail": {
+      "title": "Transcription",
+      "uploadId": "Upload ID: ",
+      "downloadVerbose": "Download detailed audio transcription"
+    }
+  },
+  "navbar": {
+    "interview-analysis-label": "Interview Analysis",
+    "patients": "Patients",
+    "label-hello": "Hello",
+    "menu-name": "Name",
+    "menu-surname": "Surname",
+    "menu-email": "e-mail",
+    "menu-logout": "Logout"
+  },
+  "footer": {
+    "copyright": {
+      "title": "TALD Detect",
+      "caption": "© 2025 University of Salerno (UNISA). All rights reserved."
+    },
+    "language": {
+      "title": "Language"
+    },
+    "follow": {
+      "title": "Follow Us"
+    }
+  },
+  "paginator": {
+    "itemsPerPageLabel": "Items per page",
+    "nextPageLabel": "Next page",
+    "previousPageLabel": "Previous page",
+    "firstPageLabel": "First page",
+    "lastPageLabel": "Last page",
+    "rangeLabel": "{{start}} - {{end}} of {{length}}"
+  },
+  "stepper": {
+    "chooice_modality": {
+      "real_time": {
+        "title": "Real-Time Analysis",
+        "description": "Configure the models, features, and parameters to extract. Upload your audio and follow the progress of each step in real-time (Interaction Required)."
+      },
+      "job": {
+        "title": "Job Analysis",
+        "description": "Upload your audio and receive the results by email when the analysis is complete"
+      }
+    },
+    "configuration": {
+      "title": "Configuration",
+      "diarizationModel": "Diarization Model",
+      "transcriptionModel": "Transcription Model",
+      "anlysisModel": "Analysis Model",
+      "features": {
+        "title": "Select Features to Extract",
+        "speech_duration": {
+          "name": "Speech Duration",
+          "description": "Calculate how much time each speaker speaks in total. \n Example: { \"speaker_1\": 35.2 sec, \"speaker_2\": 20.1 sec }. \n Measure the balance of the conversation."
+        },
+        "speech_frequency": {
+          "name": "Speech Frequency",
+          "description": "Count the number of speech turns for each speaker. \n Example: { \"speaker_1\": 12 turns, \"speaker_2\": 8 turns }. \n Who speaks more often."
+        },
+        "pause_between_turns": {
+          "name": "Pause Between Turns",
+          "description": "Calculate the average duration of pauses between one speech and another. \n Example: { \"average_pause\": 1.2 sec }. \n Measure the speed of the conversation."
+        },
+        "speech_overlap": {
+          "name": "Speech Overlap",
+          "description": "Calculate the percentage of speech overlap between the two speakers. \n Example: { \"overlap_percentage\": 5.3% }. \n Measure the degree of interruption between the two speakers."
+        },
+        "speech_emotions": {
+          "name": "Speech Emotions",
+          "description": "Recognize emotions in speech. \n Example: { \"speaker_1\": \"happy\", \"speaker_2\": \"sad\" }. \n Measure the emotional tone of the conversation."
+        },
+        "prosody_variation": {
+          "name": "Prosody Variation",
+          "description": "Recognize prosodic variations in speech. People with ASD tend to have a monotonous speech or with atypical intonation variations. Calculate the fundamental frequency (F0) range and variation over time. Identify a flat or excessively variable voice tone."
+        },
+        "response_time": {
+          "name": "Response Time",
+          "description": "Calculate the average time between a doctor's question and the patient's response. \n Example: { \"speaker_1 (patient)\": 2.1 sec }. \n Measure the response speed. People with ASD often have longer latencies before responding."
+        },
+        "avg_sentence_length": {
+          "name": "Average Sentence Length",
+          "description": "Calculate the average sentence length of each speaker. \n Example: { \"speaker_1\": 5.2 words, \"speaker_2\": 4.8 words }. \n Measure the language complexity. People with ASD tend to use very short or very long sentences."
+        },
+        "echolalia_repetition": {
+          "name": "Repetition and Echolalia",
+          "description": "Recognize the repetition of words or phrases. \n Example: { \"speaker_1\": \"30%\", \"speaker_2\": \"1%\" }. \n Measure the presence of echolalia. People with ASD tend to repeat words or phrases just heard."
+        },
+        "syntactic_complexity": {
+          "name": "Syntactic Complexity",
+          "description": "Calculate the syntactic complexity of the sentences of each speaker. \n Example: { \"speaker_1\": \"complex\", \"speaker_2\": \"simple\" }. \n Measure the language complexity. People with ASD tend to use poorly structured or complex sentences."
+        },
+        "speech_rate": {
+          "name": "Speech Rate",
+          "description": "Calculate the average number of words spoken per second by each speaker. \n Example: { \"speaker_1\": 120 wpm, \"speaker_2\": 100 wpm }. \n Measure the speech rate. People with ASD tend to speak faster or slower."
+        },
+        "articulation_pronunciation": {
+          "name": "Articulation and Pronunciation",
+          "description": "Recognize the presence of pronunciation or articulation errors. \n Example: { \"speaker_1\": \"0 errors\", \"speaker_2\": \"5 errors\" }. \n Measure the clarity of speech. ASD is associated with abnormal variations in formants that make the voice less clear."
+        },
+        "pitch_stress": {
+          "name": "Intonation and Vocal Stress",
+          "description": "Recognize the presence of abnormal intonations or vocal stress. \n Example: { \"speaker_1\": \"normal intonation\", \"speaker_2\": \"flat intonation\" }. \n Measure the tonal variation. People with ASD tend to use a flat or excessively variable voice tone."
+        },
+        "disfluencies": {
+          "name": "Disfluencies",
+          "description": "Calculate the number of disfluencies in the speech of each speaker. \n Example: { \"speaker_1\": 5 disfluencies, \"speaker_2\": 3 disfluencies }. \n Measure the presence of speech disfluencies. People with ASD tend to have more disfluencies in their speech."
+        },
+        "turn_taking_coordination": {
+          "name": "Turn-Taking Coordination",
+          "description": "Calculate the coordination of turn-taking between the two speakers. \n Example: { \"speaker_1\": \"good coordination\", \"speaker_2\": \"poor coordination\" }. \n Measure the coordination of the conversation. People with ASD tend to have difficulty in taking turns."
+        },
+        "vocal_energy_modulation": {
+          "name": "Vocal Energy Modulation",
+          "description": "Calculate the presence of vocal energy modulation in speech. \n Example: { \"speaker_1\": \"good modulation\", \"speaker_2\": \"poor modulation\" }. \n Measure the modulation of the voice. People with ASD tend to have a flat or excessively variable voice tone."
+        },
+        "harmonics_to_noise_ratio": {
+          "name": "Harmonics to Noise Ratio",
+          "description": "Calculate the ratio between harmonics and noise in the speech signal. \n Example: { \"speaker_1\": 0.8, \"speaker_2\": 0.6 }. \n Measure the clarity of the voice. People with ASD tend to have a lower ratio."
+        },
+        "intra_turn_latency": {
+          "name": "Intra-Turn Latency",
+          "description": "Calculate the average time between one speaker's turn and the other's. \n Example: { \"speaker_1\": 1.2 sec, \"speaker_2\": 1.5 sec }. \n Measure the speed of the conversation. People with ASD tend to have longer latencies."
+        },
+        "functional_word_frequency": {
+          "name": "Functional Word Frequency",
+          "description": "Calculate the frequency of functional words in the speech of each speaker. \n Example: { \"speaker_1\": 5%, \"speaker_2\": 10% }. \n Measure the language complexity. People with ASD tend to use more or less functional words."
+        },
+        "speech_entropy": {
+          "name": "Speech Entropy",
+          "description": "Calculate the entropy of the speech of each speaker. \n Example: { \"speaker_1\": 0.8, \"speaker_2\": 0.6 }. \n Measure the complexity of the speech. People with ASD tend to have a lower entropy."
+        },
+        "pause_duration": {
+          "name": "Pause Duration",
+          "description": "Calculate the average duration of pauses in the speech of each speaker. \n Example: { \"speaker_1\": 0.5 sec, \"speaker_2\": 0.3 sec }. \n Measure the presence of pauses in speech. People with ASD tend to have longer pauses."
+        },
+        "rms_energy": {
+          "name": "RMS Energy",
+          "description": "Calculate the RMS energy of the speech of each speaker. \n Example: { \"speaker_1\": 0.8, \"speaker_2\": 0.6 }. \n Measure the energy of the voice. People with ASD tend to have a lower energy."
+        },
+        "hnr": {
+          "name": "Harmonics to Noise Ratio (HNR)",
+          "description": "Calculate the ratio between harmonics and noise in the speech signal. \n Example: { \"speaker_1\": \"HNR high\", \"speaker_2\": \"HNR low\" }. \n Measure the clarity of the voice. People with ASD tend to produce atypical vocal sounds or use a monotonous voice tone."
+        },
+        "stress_voice": {
+          "name": "Vocal Stress",
+          "description": "Recognize the presence of vocal stress in speech. \n Example: { \"speaker_1\": \"stressed\", \"speaker_2\": \"not stressed\" }. \n Measure the presence of vocal stress. People with ASD tend to have a flat or excessively variable voice tone."
+        },
+        "energy_modulation": {
+          "name": "Energy Modulation",
+          "description": "Calculate the presence of energy modulation in speech. \n Example: { \"speaker_1\": \"good modulation\", \"speaker_2\": \"poor modulation\" }. \n Measure the modulation of the voice. People with ASD tend to have a flat or excessively variable voice tone."
+        },
+        "latency_intra_turn": {
+          "name": "Intra-Turn Latency",
+          "description": "Calculate the average time between one speaker's turn and the other's. \n Example: { \"speaker_1\": 1.2 sec, \"speaker_2\": 1.5 sec }. \n Measure the speed of the conversation. People with ASD tend to have longer latencies."
+        },
+        "turn_response_time": {
+          "name": "Turn Response Time",
+          "description": "Calculate the average time between a doctor's question and the patient's response. \n Example: { \"speaker_1 (patient)\": 2.1 sec }. \n Measure the response speed. People with ASD often have longer latencies before responding."
+        },
+        "fluency_disfluency": {
+          "name": "Fluency and Disfluency",
+          "description": "Recognize the presence of disfluencies in speech. \n Example: { \"speaker_1\": \"5 disfluencies\", \"speaker_2\": \"10 disfluencies\" }. \n Measure the fluency of speech. People with ASD tend to use disfluencies like \"uh\", \"um\", \"then\" or repeat words."
+        },
+        "sentence_length_avg": {
+          "name": "Average Sentence Length",
+          "description": "Calculate the average sentence length of each speaker. \n Example: { \"speaker_1\": 5.2 words, \"speaker_2\": 4.8 words }. \n Measure the language complexity. People with ASD tend to use very short or very long sentences."
+        },
+        "predictability_entropy": {
+          "name": "Predictability Entropy",
+          "description": "Calculate the predictability of the speech of each speaker. \n Example: { \"speaker_1\": \"high\", \"speaker_2\": \"low\" }. \n Measure the predictability of speech. People with ASD tend to use very predictable or very unpredictable phrases."
+        },
+        "total_speech_duration": {
+          "name": "Total Speech Duration",
+          "description": "Calculate the total duration of the speech of each speaker. \n Example: { \"speaker_1\": 35.2 sec, \"speaker_2\": 20.1 sec }. \n Measure the balance of the conversation."
+        }
+      },
+      "parameters": {
+        "title": "Select Parameters to Report",
+        "total_tald": {
+          "name": "Total TALD",
+          "description": "Total number of turns in the conversation."
+        },
+        "circumstantiality": {
+          "name": "Circumstantiality",
+          "description": "Excessive detail and verbosity in speech, with difficulty in getting to the point."
+        },
+        "derailment": {
+          "name": "Derailment",
+          "description": "Sudden shift from one topic to another without logical connection."
+        },
+        "tangentiality": {
+          "name": "Tangentiality",
+          "description": "Inability to maintain focus on the main topic of conversation."
+        },
+        "thought_disassociation": {
+          "name": "Thought Disassociation",
+          "description": "Lack of logical connection between thoughts and ideas."
+        },
+        "crosstalk": {
+          "name": "Crosstalk",
+          "description": "Simultaneous speech of the two speakers."
+        },
+        "perseveration": {
+          "name": "Perseveration",
+          "description": "Repetition of the same words or phrases."
+        },
+        "verbigeration": {
+          "name": "Verbigeration",
+          "description": "Repetition of the same words or phrases in a disorganized way."
+        },
+        "thought_break": {
+          "name": "Thought Break",
+          "description": "Interruption of the flow of thought."
+        },
+        "pressure_speech": {
+          "name": "Pressure Speech",
+          "description": "Rapid and incoherent speech."
+        },
+        "logorrhea": {
+          "name": "Logorrhea",
+          "description": "Excessive and incoherent speech."
+        },
+        "mannered_speech": {
+          "name": "Mannered Speech",
+          "description": "Speech with an artificial or exaggerated tone."
+        },
+        "semantic_paraphasia": {
+          "name": "Semantic Paraphasia",
+          "description": "Substitution of words with others that are semantically related."
+        },
+        "phonemic_paraphasia": {
+          "name": "Phonemic Paraphasia",
+          "description": "Substitution of words with others that are phonemically related."
+        },
+        "neologisms": {
+          "name": "Neologisms",
+          "description": "Invention of new words or phrases."
+        },
+        "clanging": {
+          "name": "Clanging",
+          "description": "Association of words based on sound rather than meaning."
+        },
+        "echolalia": {
+          "name": "Echolalia",
+          "description": "Repetition of words or phrases just heard."
+        },
+        "speech_content_poverty": {
+          "name": "Speech Content Poverty",
+          "description": "Lack of content in speech."
+        },
+        "restricted_thought": {
+          "name": "Restricted Thought",
+          "description": "Difficulty in generating new thoughts or ideas."
+        },
+        "slowed_thought": {
+          "name": "Slowed Thought",
+          "description": "Slowed thought process."
+        },
+        "speech_poverty": {
+          "name": "Speech Poverty",
+          "description": "Lack of content in speech."
+        },
+        "concretism": {
+          "name": "Concretism",
+          "description": "Inability to understand abstract concepts."
+        },
+        "blocks": {
+          "name": "Blocks",
+          "description": "Sudden interruption of speech."
+        },
+        "rumination": {
+          "name": "Rumination",
+          "description": "Repetitive and obsessive thoughts."
+        },
+        "thought_poverty": {
+          "name": "Thought Poverty",
+          "description": "Lack of content in thought."
+        },
+        "thought_inhibition": {
+          "name": "Thought Inhibition",
+          "description": "Difficulty in generating new thoughts or ideas."
+        },
+        "receptive_language_dysfunction": {
+          "name": "Receptive Language Dysfunction",
+          "description": "Difficulty in understanding spoken language."
+        },
+        "expressive_language_dysfunction": {
+          "name": "Expressive Language Dysfunction",
+          "description": "Difficulty in expressing oneself verbally."
+        },
+        "thought_initiative_intention_dysfunction": {
+          "name": "Thought Initiative/Intention Dysfunction",
+          "description": "Difficulty in initiating or maintaining a conversation."
+        },
+        "thought_interference": {
+          "name": "Thought Interference",
+          "description": "Interference of thoughts in speech."
+        },
+        "thought_pressure": {
+          "name": "Thought Pressure",
+          "description": "Rapid and incoherent thoughts."
+        }
+      },
+      "selectAll": "Select All"
+    },
+    "upload": {
+      "title": "Upload File",
+      "interview_file": "Upload Interview File",
+      "description": "Upload the audio file of the interview to analyze.",
+      "informative": "You can only upload files in the following formats: mp3, wav, aiff, flac, ogg, aac, m4a.\n \n The file cannot be larger than 1 GB. You can upload only 1 file.",
+      "estimate_time": "Estimated time: <",
+      "estimate_accuracy": "Estimated accuracy: "
+    },
+    "diarize": {
+      "title": "Diarization",
+      "selectRole": "Select the role of the speakers in the conversation.",
+      "browserDontSupportAudio": "Your browser does not support audio.",
+      "patient": "Patient",
+      "doctor": "Doctor"
+    },
+    "transcription": {
+      "title": "Transcription",
+      "transcriptionResult": "Transcription Result",
+      "doctor": "Clinician",
+      "patient": "Patient"
+    },
+    "report": {
+      "title": "Report",
+      "loader": {
+        "description": "Report generation in progress, upon completion you will be redirected to the detail..."
+      }
+    },
+    "buttons": {
+      "next": {
+        "label": "Next"
+      },
+      "confirm": {
+        "label": "Confirm"
+      },
+      "previous": {
+        "label": "Previous"
+      },
+      "select_file": {
+        "label": "Select File"
+      },
+      "start_job": {
+        "label": "Start Job"
+      }
+    }
+  },
+  "login": {
+    "title": "Login",
+    "email": "e-mail",
+    "password": "password",
+    "submit": "Login",
+    "email-error": "invalid eMail entered",
+    "reset": "Reset password",
+    "message": "Welcome"
+  },
+  "buttons": {
+    "back": {
+      "label": "Back"
+    },
+    "save_changes": {
+      "label": "Save Changes"
+    }
+  },
+  "patient": {
+    "sections": {
+      "list": {
+        "title": "Patient List"
+      },
+      "add": {
+        "title": "Add Patient"
+      },
+      "edit": {
+        "title": "Edit Patient"
+      }
+    },
+    "fields": {
+      "nome": "Name",
+      "cognome": "Surname",
+      "email": "eMail",
+      "age": "Age",
+      "azioni": "Actions"
+    },
+    "buttons": {
+      "modifica": "Modify",
+      "elimina": "Delete",
+      "salva": "Save",
+      "aggiungi": "Add",
+      "reset": "Reset"
+    }
+  }
+}

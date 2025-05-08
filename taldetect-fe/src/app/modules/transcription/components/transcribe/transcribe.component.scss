@@ -1,0 +1,36 @@
+.progress {
+    margin-bottom: -17px;
+    z-index: 10;
+    position: relative;
+    background: transparent;
+    color: white;
+    margin-left: 3px;
+}
+
+.transcriptionPanel {
+    background: #e2e6ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-bubble {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.user-message {
+    background-color: #FFFFFF;
+}
+
+.doctor-message {
+    background-color: #DCF8C6;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
