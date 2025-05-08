@@ -1,0 +1,3 @@
+[submodule "taldetect-be"]
+	path = taldetect-be
+	url = https://github.com/giampierus/taldetect-be
