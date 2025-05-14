@@ -193,6 +193,13 @@ This will launch a process that reconstructs the patient’s movement in a 3D sp
 
 ---
 
+## Future Developments
+
+- Synchronization of the three cameras used during recording to achieve consistent spatial reconstruction from multiple viewpoints.
+- Implementation of a system to automatically assess the plausibility of the recorded walking sequence, detecting potential anomalies in movement.
+
+---
+
 ## Contact
 
 For more information or inquiries:  
