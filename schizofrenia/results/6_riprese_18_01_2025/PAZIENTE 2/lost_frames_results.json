@@ -1,0 +1,222 @@
+[
+    {
+        "File": "20250118_121803.bag",
+        "Frames": {
+            "total_frames": 1862,
+            "lost_frames": 1,
+            "invalid_keypoint_frames": 36,
+            "frame_loss_pct": "0.1%",
+            "keypoint_loss_pct": "2.0%"
+        }
+    },
+    {
+        "File": "20250118_121806.bag",
+        "Frames": {
+            "total_frames": 2032,
+            "lost_frames": 1,
+            "invalid_keypoint_frames": 7,
+            "frame_loss_pct": "0.0%",
+            "keypoint_loss_pct": "0.3%"
+        }
+    },
+    {
+        "File": "20250118_121807.bag",
+        "Frames": {
+            "total_frames": 1850,
+            "lost_frames": 1,
+            "invalid_keypoint_frames": 438,
+            "frame_loss_pct": "0.1%",
+            "keypoint_loss_pct": "31.0%"
+        }
+    },
+    {
+        "File": "20250118_121858.bag",
+        "Frames": {
+            "total_frames": 1732,
+            "lost_frames": 8,
+            "invalid_keypoint_frames": 0,
+            "frame_loss_pct": "0.5%",
+            "keypoint_loss_pct": "0.0%"
+        }
+    },
+    {
+        "File": "20250118_121859.bag",
+        "Frames": {
+            "total_frames": 1805,
+            "lost_frames": 8,
+            "invalid_keypoint_frames": 0,
+            "frame_loss_pct": "0.4%",
+            "keypoint_loss_pct": "0.0%"
+        }
+    },
+    {
+        "File": "20250118_121905.bag",
+        "Frames": {
+            "total_frames": 1583,
+            "lost_frames": 9,
+            "invalid_keypoint_frames": 391,
+            "frame_loss_pct": "0.6%",
+            "keypoint_loss_pct": "33.1%"
+        }
+    },
+    {
+        "File": "20250118_121932.bag",
+        "Frames": {
+            "total_frames": 294,
+            "lost_frames": 0,
+            "invalid_keypoint_frames": 288,
+            "frame_loss_pct": "0.0%",
+            "keypoint_loss_pct": "4800.0%"
+        }
+    },
+    {
+        "File": "20250118_122150.bag",
+        "Frames": {
+            "total_frames": 2700,
+            "lost_frames": 7,
+            "invalid_keypoint_frames": 324,
+            "frame_loss_pct": "0.3%",
+            "keypoint_loss_pct": "13.7%"
+        }
+    },
+    {
+        "File": "20250118_122152.bag",
+        "Frames": {
+            "total_frames": 2685,
+            "lost_frames": 8,
+            "invalid_keypoint_frames": 0,
+            "frame_loss_pct": "0.3%",
+            "keypoint_loss_pct": "0.0%"
+        }
+    },
+    {
+        "File": "20250118_122153.bag",
+        "Frames": {
+            "total_frames": 2712,
+            "lost_frames": 8,
+            "invalid_keypoint_frames": 547,
+            "frame_loss_pct": "0.3%",
+            "keypoint_loss_pct": "25.4%"
+        }
+    },
+    {
+        "File": "20250118_122312.bag",
+        "Frames": {
+            "total_frames": 5849,
+            "lost_frames": 4,
+            "invalid_keypoint_frames": 2,
+            "frame_loss_pct": "0.1%",
+            "keypoint_loss_pct": "0.0%"
+        }
+    },
+    {
+        "File": "20250118_122313.bag",
+        "Frames": {
+            "total_frames": 5904,
+            "lost_frames": 5,
+            "invalid_keypoint_frames": 0,
+            "frame_loss_pct": "0.1%",
+            "keypoint_loss_pct": "0.0%"
+        }
+    },
+    {
+        "File": "20250118_122315.bag",
+        "Frames": {
+            "total_frames": 5949,
+            "lost_frames": 6,
+            "invalid_keypoint_frames": 1250,
+            "frame_loss_pct": "0.1%",
+            "keypoint_loss_pct": "26.6%"
+        }
+    },
+    {
+        "File": "20250118_123003.bag",
+        "Frames": {
+            "total_frames": 1035,
+            "lost_frames": 1,
+            "invalid_keypoint_frames": 335,
+            "frame_loss_pct": "0.1%",
+            "keypoint_loss_pct": "47.9%"
+        }
+    },
+    {
+        "File": "20250118_123004.bag",
+        "Frames": {
+            "total_frames": 1022,
+            "lost_frames": 3,
+            "invalid_keypoint_frames": 1,
+            "frame_loss_pct": "0.3%",
+            "keypoint_loss_pct": "0.1%"
+        }
+    },
+    {
+        "File": "20250118_123006.bag",
+        "Frames": {
+            "total_frames": 1031,
+            "lost_frames": 3,
+            "invalid_keypoint_frames": 219,
+            "frame_loss_pct": "0.3%",
+            "keypoint_loss_pct": "27.1%"
+        }
+    },
+    {
+        "File": "20250118_123039.bag",
+        "Frames": {
+            "total_frames": 1375,
+            "lost_frames": 1,
+            "invalid_keypoint_frames": 541,
+            "frame_loss_pct": "0.1%",
+            "keypoint_loss_pct": "64.9%"
+        }
+    },
+    {
+        "File": "20250118_123040.bag",
+        "Frames": {
+            "total_frames": 1231,
+            "lost_frames": 1,
+            "invalid_keypoint_frames": 1,
+            "frame_loss_pct": "0.1%",
+            "keypoint_loss_pct": "0.1%"
+        }
+    },
+    {
+        "File": "20250118_123041.bag",
+        "Frames": {
+            "total_frames": 1079,
+            "lost_frames": 1,
+            "invalid_keypoint_frames": 316,
+            "frame_loss_pct": "0.1%",
+            "keypoint_loss_pct": "41.5%"
+        }
+    },
+    {
+        "File": "20250118_123108.bag",
+        "Frames": {
+            "total_frames": 1135,
+            "lost_frames": 0,
+            "invalid_keypoint_frames": 344,
+            "frame_loss_pct": "0.0%",
+            "keypoint_loss_pct": "43.5%"
+        }
+    },
+    {
+        "File": "20250118_123110.bag",
+        "Frames": {
+            "total_frames": 955,
+            "lost_frames": 0,
+            "invalid_keypoint_frames": 0,
+            "frame_loss_pct": "0.0%",
+            "keypoint_loss_pct": "0.0%"
+        }
+    },
+    {
+        "File": "20250118_123112.bag",
+        "Frames": {
+            "total_frames": 753,
+            "lost_frames": 0,
+            "invalid_keypoint_frames": 0,
+            "frame_loss_pct": "0.0%",
+            "keypoint_loss_pct": "0.0%"
+        }
+    }
+]

@@ -61,26 +61,6 @@ The project integrates standard and IT-based assessments to analyze the main dim
 
 ---
 
-## Speech Analysis
-
-### Formal Thought Disorders
-
-![Speech Analysis](assests/images/speech_analysis.png)
-
-- **TALD (Thought And Language Disorder) Scale**  
-  - 30 items, scored 0–4, assessing language and thought dysfunctions during clinical observation.
-
-
-![Speech Analysis Pipeline](assests/images/speech_pipeline.png)
-
-1. **Transcription** (Whisper Model)  
-2. **Diarization** (ECAPA TDNN + K-means)  
-3. **Speaker Mapping** (Time-stamp analysis)  
-4. **Item Assessment** (Sentiment Analysis, Cosine Similarity)  
-5. **Report Generation** (Output summary)
-
----
-
 ## Gait Analysis
 
 ![Gait Analysis Overview](assests/images/gait_analysis.png)
@@ -104,28 +84,112 @@ The project integrates standard and IT-based assessments to analyze the main dim
 
 ---
 
-## Altered Neuroimaging
+## Implementation
+The system follows a modular pipeline that processes video recordings from Intel RealSense cameras. Using **pyrealsense2**, frames are extracted, aligned, and analyzed to compute depth quality metrics. Simultaneously, **MediaPipe Pose** is used to automatically extract 3D human body keypoints, which are stored in **.json** format. A dedicated module enables animated visualization of these keypoints using **matplotlib**, producing an **.mp4** video at 60 FPS. All functions are structured modularly for easy extension and maintainability.
 
-MRI (including fMRI) and structural MRI for non-invasive study of brain structure and function.
 
-- **Aim**:  
-  - Train various Deep Learning models on MRI datasets to detect SZ.  
-  - Apply transfer learning on TRS vs. non-TRS patients.
+### Requirements
+To run this project, you will need the following:
+1. Python 3.8 or higher
+2. pip (Python package installer)
 
-### Neuroimaging Techniques
+Once you have Python installed, you can install the required dependencies by running:
 
-![Altered Neuroimaging](assests/images/altered_neuroimaging.png)
 
-- **CNNs**: Identifying complex visual patterns in MRI.  
-- **Autoencoders**: Dimensionality reduction and feature extraction.  
-- **Transformers**: Sequential data analysis (fMRI).
+```sh
+pip install -r requirements.txt
+```
 
-### Explainable AI in Neuroimaging
 
-![Altered Neuroimaging 2](assests/images/altered_neuroimaging_2.png)
+The requirements.txt file includes the following packages:
+- numpy
+- opencv-python
+- open3d
+- pyrealsense2
+- matplotlib
 
-- **Attention Rollout as Activation Map**  
-  - Highlights brain regions influencing the classification decisions.
+### Project Execution
+To run the project, use the following command:
+
+```bash
+python main.py "<base_dir>"
+```
+
+- `<base_dir>` is an **optional** argument representing the base directory that contains the patient folders, each with multiple recording sessions (e.g., `.bag` files).
+- If not provided, the code will use a **default path** defined internally.
+
+
+Running `main.py` processes the recording sessions to extract body keypoints. During this process, corrupted or lost frames are automatically discarded, as well as frames where the number of detected keypoints falls below a predefined threshold set in the code.  
+To improve keypoint extraction reliability, the system enhances ambient lighting conditions through image preprocessing techniques.  
+At the same time, several quality metrics are computed (such as accuracy, noise, planarity, etc.) and compared with reference values from the official RealSense datasheet. An example of the output generated during execution:
+
+```json
+{
+  "File": "20250118_121803.bag",
+  "Quality measures": {
+      "camera_model": "Intel RealSense D455F",
+      "baseline_m": 0.095,
+      "accuracy_error_mm": 7831.0,
+      "rms_precision_mm": 545.213007450987,
+      "fill_rate_percent": 91.8172661163522,
+      "image_noise_rms": 39.03862670484196,
+      "sharpness_sfn": 5790.02880684795,
+      "temporal_jitter_mm": 430.09827817475497,
+      "planarity_error_m": 0.003956824514231298
+  }
+}
+```
+
+Finally, a summary report is generated, indicating the percentage of lost frames and the proportion of the video considered valid.
+
+```json
+{
+  "File": "20250118_121803.bag",
+  "Frames": {
+      "total_frames": 1862,
+      "lost_frames": 1,
+      "invalid_keypoint_frames": 36,
+      "frame_loss_pct": "0.1%",
+      "keypoint_loss_pct": "2.0%"
+  }
+}
+```
+
+The keypoints are also saved in JSON format, including the patient data extracted from the `metadati.txt` file, which is located at the same level as the patient folders containing the videos. Here’s an example:
+
+```json
+{
+    "patient": {
+        "ID": "2",
+        "INIT": "G_B",
+        "AGE": "40",
+        "GENDER": "M",
+        "CLASS": "SCZ15"
+    },
+    "frames": [
+        [
+            [0.4722867012023926, 0.5031165480613708, -0.043521031737327576],
+            ...,
+            [0.46645379066467285, 0.5044509768486023, -0.04040413349866867]
+        ],
+        ...
+    ]
+}
+```
+
+---
+
+## Results
+
+To visualize the results obtained from keypoint extraction, run the command:
+
+```bash
+python show_results.py "<path>"
+```
+In this case as well, the `<path>` parameter is optional: if omitted, a default path defined in the code will be used.
+This will launch a process that reconstructs the patient’s movement in a 3D space using the extracted keypoints, with a visualization powered by Matplotlib. Additionally, a `.mp4` video of the animation will be automatically saved in the `results` directory.
+
+![3D Results](assests/images/3d_result.png)
 
 ---
 

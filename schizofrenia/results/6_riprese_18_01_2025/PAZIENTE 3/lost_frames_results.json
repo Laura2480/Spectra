@@ -1,0 +1,62 @@
+[
+    {
+        "File": "20250118_130302.bag",
+        "Frames": {
+            "total_frames": 10285,
+            "lost_frames": 4,
+            "invalid_keypoint_frames": 15,
+            "frame_loss_pct": "0.0%",
+            "keypoint_loss_pct": "0.1%"
+        }
+    },
+    {
+        "File": "20250118_130304.bag",
+        "Frames": {
+            "total_frames": 10263,
+            "lost_frames": 4,
+            "invalid_keypoint_frames": 1,
+            "frame_loss_pct": "0.0%",
+            "keypoint_loss_pct": "0.0%"
+        }
+    },
+    {
+        "File": "20250118_130305.bag",
+        "Frames": {
+            "total_frames": 10268,
+            "lost_frames": 5,
+            "invalid_keypoint_frames": 410,
+            "frame_loss_pct": "0.0%",
+            "keypoint_loss_pct": "4.2%"
+        }
+    },
+    {
+        "File": "20250118_131133.bag",
+        "Frames": {
+            "total_frames": 3354,
+            "lost_frames": 1,
+            "invalid_keypoint_frames": 0,
+            "frame_loss_pct": "0.0%",
+            "keypoint_loss_pct": "0.0%"
+        }
+    },
+    {
+        "File": "20250118_131134.bag",
+        "Frames": {
+            "total_frames": 3348,
+            "lost_frames": 1,
+            "invalid_keypoint_frames": 0,
+            "frame_loss_pct": "0.0%",
+            "keypoint_loss_pct": "0.0%"
+        }
+    },
+    {
+        "File": "20250118_131136.bag",
+        "Frames": {
+            "total_frames": 3350,
+            "lost_frames": 2,
+            "invalid_keypoint_frames": 484,
+            "frame_loss_pct": "0.1%",
+            "keypoint_loss_pct": "16.9%"
+        }
+    }
+]

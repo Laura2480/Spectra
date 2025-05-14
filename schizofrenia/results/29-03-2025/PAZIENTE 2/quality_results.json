@@ -1,0 +1,86 @@
+[
+    {
+        "File": "20250329_111333.bag",
+        "Quality measures": {
+            "camera_model": "Intel RealSense D455F",
+            "baseline_m": 0.095,
+            "accuracy_error_mm": 6205.0,
+            "rms_precision_mm": 489.6401939585576,
+            "fill_rate_percent": 64.05439268867924,
+            "image_noise_rms": 23.02274907564255,
+            "sharpness_sfn": 3222.5218451159894,
+            "temporal_jitter_mm": 67.27889713721532,
+            "planarity_error_m": 0.00010872260296310205
+        }
+    },
+    {
+        "File": "20250329_111334.bag",
+        "Quality measures": {
+            "camera_model": "Intel RealSense D435",
+            "baseline_m": 0.05,
+            "accuracy_error_mm": 3684.0,
+            "rms_precision_mm": 48.91385726855825,
+            "fill_rate_percent": 94.80493317610062,
+            "image_noise_rms": 98.07873061984439,
+            "sharpness_sfn": 7323.420312976951,
+            "temporal_jitter_mm": 301.8547645621796,
+            "planarity_error_m": 0.0008083460544169863
+        }
+    },
+    {
+        "File": "20250329_111335.bag",
+        "Quality measures": {
+            "camera_model": "Intel RealSense D435",
+            "baseline_m": 0.05,
+            "accuracy_error_mm": 4016.0,
+            "rms_precision_mm": 372.9660882372551,
+            "fill_rate_percent": 99.12760416666667,
+            "image_noise_rms": 7.802461150175629,
+            "sharpness_sfn": 3231.296970378709,
+            "temporal_jitter_mm": 27.96030917012344,
+            "planarity_error_m": 0.004598974815113145
+        }
+    },
+    {
+        "File": "20250329_112124.bag",
+        "Quality measures": {
+            "camera_model": "Intel RealSense D455F",
+            "baseline_m": 0.095,
+            "accuracy_error_mm": 6409.0,
+            "rms_precision_mm": 513.1275662374301,
+            "fill_rate_percent": 67.46855345911949,
+            "image_noise_rms": 22.503701917684566,
+            "sharpness_sfn": 3071.0281049508776,
+            "temporal_jitter_mm": 51.18494787424218,
+            "planarity_error_m": 0.00013745587487164684
+        }
+    },
+    {
+        "File": "20250329_112125.bag",
+        "Quality measures": {
+            "camera_model": "Intel RealSense D435",
+            "baseline_m": 0.05,
+            "accuracy_error_mm": 3653.0,
+            "rms_precision_mm": 264.82652896518886,
+            "fill_rate_percent": 94.30842177672956,
+            "image_noise_rms": 99.080194287254,
+            "sharpness_sfn": 7101.380642450211,
+            "temporal_jitter_mm": 255.16357280946056,
+            "planarity_error_m": 0.0
+        }
+    },
+    {
+        "File": "20250329_112126.bag",
+        "Quality measures": {
+            "camera_model": "Intel RealSense D435",
+            "baseline_m": 0.05,
+            "accuracy_error_mm": 4411.0,
+            "rms_precision_mm": 415.27236769980254,
+            "fill_rate_percent": 99.33642885220125,
+            "image_noise_rms": 8.01831925967032,
+            "sharpness_sfn": 3246.3977202054066,
+            "temporal_jitter_mm": 31.04770522921138,
+            "planarity_error_m": 0.004633919971008396
+        }
+    }
+]
