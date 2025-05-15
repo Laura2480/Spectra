@@ -148,6 +148,122 @@ This adaptive approach helps to clean up noisy keypoint data while maintaining t
 
 ---
 
+## Algorithm Details
+
+The script uses several specialized algorithms to process, calculate, and filter 3D keypoint data. Below is a detailed explanation of each key algorithm:
+
+### 1. `get_depth_around_point`
+
+This function retrieves robust depth values for keypoints by analyzing a small region around each point.
+
+**Implementation:**
+- Creates a 5×5 pixel window around the target keypoint
+- Samples depth values from all pixels in this window
+- Filters out invalid depth readings (zero or error values)
+- Calculates the average of valid depth values
+- Falls back to historical depth values from previous frames if no valid readings are found
+
+**Purpose:**
+This approach solves the common problem of missing or noisy depth values in RealSense depth frames, especially at object boundaries or reflective surfaces. By averaging multiple readings, it provides more reliable depth estimation even in challenging scenarios.
+
+### 2. `calculate_depth_error`
+
+Implements the theoretical RMS depth error formula for stereo cameras:
+
+```
+Depth RMS error(mm) = Distance(mm)² × Subpixel / (focal length(pixels) × Baseline(mm))
+```
+Where:
+- focal length(pixels) = (1/2) × res(pixels) / tan(HFOV/2)
+
+**Implementation:**
+- Uses camera intrinsics from the RealSense device (baseline, HFOV, resolution)
+- Calculates depth error in millimeters for each keypoint
+- Provides error bounds for depth measurements
+
+**Purpose:**
+Understanding the error margin in depth readings is crucial for applications requiring precise 3D positioning. The error increases quadratically with distance, which this function correctly models.
+
+### 3. `calculate_jitter_score`
+
+Evaluates the stability and reliability of keypoints across frames.
+
+**Implementation:**
+- Tracks each keypoint's movement between consecutive frames
+- Compares the current movement with the average of recent movements (up to 15 frames)
+- Assigns scores from 0 (highly irregular movement) to 1 (smooth, consistent movement)
+- Applies penalties for:
+  - Zero depth values (unusable for 3D positioning)
+  - Low visibility scores (uncertain detections from MediaPipe)
+  - Sudden, inconsistent movements (potential detection errors)
+
+**Purpose:**
+This metric helps identify unreliable keypoints that might need filtering or special handling. The score can be used to weight keypoints differently in downstream applications or to trigger adaptive filtering.
+
+### 4. `apply_adaptive_savgol_filter`
+
+A modified Savitzky-Golay filter that adapts its parameters based on the quality of keypoint data.
+
+**Implementation:**
+- Analyzes each keypoint's history for variability and visibility
+- For problematic keypoints (high variability, low visibility):
+  - Increases the filter window size (up to 21 frames)
+  - Reduces polynomial order (to be more rigid)
+  - Lowers the threshold for intervention
+- For stable keypoints, applies minimal or no filtering
+- Only filters coordinates that show significant jitter
+
+**Purpose:**
+While standard filters apply the same processing to all data points, this adaptive approach preserves natural movements while aggressively smoothing only the problematic keypoints.
+
+## About Savitzky-Golay Filtering
+
+Savitzky-Golay is a digital smoothing filter that performs local polynomial regression on a series of values to determine the smoothed value for each point.
+
+### How It Works
+
+1. For each point, the filter fits a polynomial of specified order to a window of surrounding points using least-squares method
+2. The central point is replaced with the value of the polynomial at that position
+3. The process repeats for each point in the series
+
+### Advantages for Keypoint Tracking
+
+- **Preserves shape features**: Unlike simple moving averages, Savitzky-Golay preserves features like local minima/maxima and shoulder peaks
+- **Handles non-uniform movements**: Can model the natural acceleration/deceleration of human movement
+- **Adjustable parameters**: The window size and polynomial order can be tuned to balance between smoothing and feature preservation
+
+### Limitations in Our Context
+
+- **End-points handling**: The first and last few frames may have inferior filtering quality
+- **Window size constraints**: A large window requires more frames and can over-smooth rapid legitimate movements
+- **Polynomial constraints**: If the polynomial order is too low, it can remove actual movement features
+
+### Our Adaptive Implementation
+
+Our implementation addresses these limitations by:
+
+1. Dynamically adjusting window size and polynomial order based on keypoint quality
+2. Applying the filter selectively to only the coordinates showing significant jitter
+3. Using the original keypoint data when filter conditions are not met
+4. Processing each keypoint ID independently to account for different movement patterns
+
+This approach ensures that stable, reliable keypoints maintain their natural motion patterns while problematic keypoints get appropriate levels of smoothing.
+
+---
+
+## Results
+
+You can view some comparisons of JSON files and extracted video frames, before and after post-processing.
+On the left is the original extracted file, and on the right is the filtered one.
+
+![JSON Compare](assests/images/json_compare_frame147.jpeg)
+![JSON Compare2](assests/images/json_compare2_frame147.jpeg)
+
+![IMG Compare](assests/images/skeleton_frame_0147.png)
+![IMG Compare2](assests/images/skeleton_frame_filtered_0147.png)
+
+---
+
 ## Contact
 
 For more information or inquiries:  
